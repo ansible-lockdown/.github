@@ -9,8 +9,8 @@
 
 </center>
 
-|Based upon the following products|||
-|--|--|--|
+|Based upon the following products||
+|--|--|
 |[<img src="https://www.ansible.com/hubfs/Logo-Red_Hat-Ansible-A-Reverse-SVG.svg" width="150" height="150" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="75" height="75" alt="Github hosted goss" />](http://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
 
