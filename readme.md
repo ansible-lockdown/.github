@@ -23,10 +23,9 @@ Based upon industry recognised benchmarks, Using leading products to enable high
 |--|--|
 |[<img src="https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/cis-logo.png?h=86&iar=0&w=300&rev=cab111cd442d438e9a25aad90b81bcfe&hash=864E27F8A942D9677949C871231E0E2F" alt="CIS" />](https://www.cisecurity.org/cis-benchmarks)|[<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />](https://public.cyber.mil/stigs/)|
 |[CIS - Centre for Internet Security]|[DISA STIG]|
-|[Linux](#CIS-Linux)|[STIG](#Linux)|
-|[Windows](#CIS-Windows)|[STIG](#Linux)|
-|[Platform](#CIS-Platform)|[STIG](#Linux)|
-|[Applications](#CIS-Applications)|[STIG](#Linux)|
+|[CIS Repos](#cis)|[STIG Repos](#stig)|
+---
+
 
 - Assist in bringing your systems/platform into compliance through the use of [Ansible]
 - Audit your current system/platform using [Goss]
@@ -35,7 +34,21 @@ Based upon industry recognised benchmarks, Using leading products to enable high
 
 ### CIS
 
+---
+
+||
+|---|
+|[CIS-Linux](#cis-linux)|
+|[CIS-Windows](#cis-windows)|
+|[CIS-Platform](#cis-platform)|
+|[CIS-Applications](#cis-applications)|
+||
+
+---
+
 #### CIS-Linux
+
+---
 
 |OS|Remediate|Audit|
 |--|--|--|
@@ -49,13 +62,17 @@ Based upon industry recognised benchmarks, Using leading products to enable high
 
 #### CIS-Windows
 
+---
+
 |OS|Remediate|Audit|
 |--|--|--|
 |Windows-2016|[Windows-2016-CIS]|[Windows-2016-CIS-Audit]|
 |Windows-2019|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
 |Windows-2022|[Windows-2022-CIS]|[Windows-2022-CIS-Audit]|
 
-#### CIS-Cloud
+#### CIS-Platform
+
+---
 
 |OS|Remediate|Audit|
 |--|--|--|
@@ -65,11 +82,74 @@ Based upon industry recognised benchmarks, Using leading products to enable high
 
 #### CIS-Applications
 
+---
+
 |Application|Remediate|Audit|
 |--|--|--|
 |Apache-2.4-CIS|[Apache-2.4-CIS]|False|
-|Postgres-12-CIS|[Postgres-12-CIS]|False|
+|Postgres-9-CIS|[Postgres-12-CIS]|False|
 |Kubernetes1.6.1-CIS|[Kubernetes1.6.1-CIS]|False|
+
+---
+---
+
+### STIG
+
+---
+
+||
+|---|
+|[STIG-Linux](#stig-linux)|
+|[STIG-Windows](#stig-windows)|
+|[STIG-Applications](#stig-applications)|[STIG](#stig-application)|
+|[STIG-Archived](#stig-archived)|
+
+---
+
+#### STIG-Linux
+
+---
+
+|OS|Remediate|Audit|
+|--|--|--|
+|RHEL7|[RHEL7-STIG]|[RHEL7-STIG-Audit]|
+|RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
+|UBUNTU18|[UBUNTU18-STIG]|False|
+|UBUNTU20|[UBUNTU20-STIG]|False|
+
+#### STIG-Windows
+
+---
+
+|OS|Remediate|Audit|
+|--|--|--|
+|Windows-10|[Windows-10-STIG]|False|
+|Windows-2016|[Windows-2016-STIG]|False|
+|Windows-2019|[Windows-2019-STIG]|False|
+|Windows-2022|[Windows-2022-STIG]|False|
+
+#### STIG-Applications
+
+---
+
+|Application|Remediate|Audit|
+|--|--|--|
+|Apache-2.4-STIG|[Apache-2.4-STIG]|False|
+|Postgres-9-STIG|[Postgres-9-STIG]|False|
+|Cisco-IOS-L2S|[Cisco-IOS-L2S-STIG]|False|
+|Windows-Advanced-Firewall|[WinFWADV-STIG]|False|
+
+#### STIG-Archived
+
+---
+
+|OS|
+|--|
+|[RHEL5-STIG]|
+|[RHEL6-STIG]|
+|[Windows-2008R2-Member-Server-STIG]|
+|[Windows-2012-Member-Server-STIG]|
+|[Windows-2012-Domain-Controller-STIG]|
 
 <!---
 Following entries used for consistent links across the document
@@ -113,3 +193,31 @@ CIS Repo links
 [Apache-2.4-CIS]: https://github.com/ansible-lockdown/APACHE-2.4-CIS
 [Postgres-12-CIS]: https://github.com/ansible-lockdown/POSTGRES-12-CIS
 [Kubernetes1.6.1-CIS]: https://github.com/ansible-lockdown/Kubernetes1.6.1-CIS
+
+<!---
+STIG Repo links
+--->
+
+[RHEL7-STIG]: https://github.com/ansible-lockdown/RHEL7-STIG
+[RHEL7-STIG-Audit]: https://github.com/ansible-lockdown/RHEL7-STIG-Audit
+[RHEL8-STIG]: https://github.com/ansible-lockdown/RHEL8-STIG
+[RHEL8-STIG-Audit]: https://github.com/ansible-lockdown/RHEL8-STIG-Audit
+[UBUNTU18-STIG]: https://github.com/ansible-lockdown/UBUNTU18-STIG
+[UBUNTU18-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU18-STIG-Audit
+[UBUNTU20-STIG]: https://github.com/ansible-lockdown/UBUNTU18-STIG
+
+[Windows-10-STIG]: https://github.com/ansible-lockdown/Windows-10-STIG
+[Windows-2016-STIG]: https://github.com/ansible-lockdown/Windows-2016-STIG
+[Windows-2019-STIG]: https://github.com/ansible-lockdown/Windows-2019-STIG
+[Windows-2022-STIG]: https://github.com/ansible-lockdown/Windows-2022-STIG
+
+[Apache-2.4-STIG]: https://github.com/ansible-lockdown/APACHE-2.4-STIG
+[Postgres-9-STIG]: https://github.com/ansible-lockdown/POSTGRES-9-STIG
+[Cisco-IOS-L2S-STIG]: https://github.com/ansible-lockdown/CISCO-IOS-L2S-STIG
+[WinFWADV-STIG]: https://github.com/ansible-lockdown/WinFWADV-STIG
+
+[RHEL5-STIG]: https://github.com/ansible-lockdown/RHEL5-STIG
+[RHEL6-STIG]: https://github.com/ansible-lockdown/RHEL6-STIG
+[Windows-2008R2-Member-Server-STIG]: https://github.com/ansible-lockdown/Windows-2008R2-Member-Server-STIG
+[Windows-2012-Member-Server-STIG]: https://github.com/ansible-lockdown/Windows-2012-Member-Server-STIG
+[Windows-2012-Domain-Controller-STIG]: https://github.com/ansible-lockdown/Windows-2012-Domain-Controller-STIG
