@@ -5,7 +5,7 @@
 <center>
 <img src="images/mindpoint_logo.png" width="75" height="75" alt="MindPointGroup"/>
 
-[MindPointGroup]
+[MindPoint Group]
 
 </center>
 
@@ -20,19 +20,33 @@ Based upon the following products
 Based upon industry recognised benchmarks and best practices, Using leading products to enable highly adjustable configurations to bring your systems/platforms into security compliance.
 
 - Open Source (MIT licensed)
-  - Community supported as standard - [discord]
-  - Enterprise support available - [Lockdown]
+  - Community supported as standard
+  - Enterprise support available
 - Configuration-as-code
   - Assist in bringing your systems/platform into compliance through the use of [Ansible]
   - Audit your current system/platform using [Goss]
-
 - Highly configurable to work with your systems
 
 |||
 |--|--|
 |<img src="https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/cis-logo.png?h=86&iar=0&w=300&rev=cab111cd442d438e9a25aad90b81bcfe&hash=864E27F8A942D9677949C871231E0E2F" alt="CIS" />|<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />|
 |[CIS Repos](#cis)|[STIG Repos](#stig)|
+|||
 ---
+
+## Useful Links
+
+- Ansible Lockdown
+  - [Community]("[Discord]") using discord
+  - [Documentation]("[ReadtheDocs]")
+  - [Enterprise Support]("[LockdownEnterprise]")
+  - [Full Repository list]("[RepositoryList]")
+  - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/AnsibleLockdown.svg?style=social&label=Follow%20%40AnsibleLockdown)](https://twitter.com/AnsibleLockdown)
+
+- MindPoint Group and other services: [MindPoint Group]("[MindPointGroup]")
+
+  - [![LinkedinUrl](images/LinkedIn-Blue.png)](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fmindpoint-group-llc)
+  - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/MindPointGroup.svg?style=social&label=Follow%20%40MindPointGroup)](https://twitter.com/MindPointGroup)
 
 ## Repositories
 
@@ -162,9 +176,12 @@ Following entries used for consistent links across the document
 [CIS - Centre for Internet Security]: https://www.cisecurity.org
 [DISA STIG]: https://public.cyber.mil/stigs
 [GOSS]: https://goss.rocks
-[MindPointGroup]: https://mindpointgroup.com
+[MindPoint Group]: https://mindpointgroup.com
 [Discord]: https://discord.io/ansible-lockdown
-[Lockdown]: https://lockdownenterprise.com
+[LockdownEnterprise]: https://lockdownenterprise.com
+[Linkedin]: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fmindpoint-group-llc&trk=organization_guest_nav-header-join
+[ReadTheDocs]: https://ansible-lockdown.readthedocs.io/en/latest/
+[Repository List]: https://github.com/orgs/ansible-lockdown/repositories
 
 <!---
 CIS Repo links
