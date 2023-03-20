@@ -45,7 +45,7 @@ Based upon industry recognised benchmarks and best practices, Using leading prod
 
 - MindPoint Group and other services: [MindPoint Group]("[MindPointGroup]")
 
-  - [![LinkedinUrl](images/LinkedIn-Blue.png)](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fmindpoint-group-llc)
+  - [![LinkedinUrl](images/LinkedIn-Blue.png)](https://www.linkedin.com/company/mindpoint-group-llc/)
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/MindPointGroup.svg?style=social&label=Follow%20%40MindPointGroup)](https://twitter.com/MindPointGroup)
 
 ## Repositories
