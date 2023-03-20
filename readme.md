@@ -17,18 +17,22 @@ Based upon the following products
 
 ## What is it?
 
-Based upon industry recognised benchmarks, Using leading products to enable highly adjustable configurations to bring your systems/platforms into security complaince.
+Based upon industry recognised benchmarks and best practices, Using leading products to enable highly adjustable configurations to bring your systems/platforms into security compliance.
+
+- Open Source (MIT licensed)
+  - Community supported as standard - [discord]
+  - Enterprise support available - [Lockdown]
+- Configuration-as-code
+  - Assist in bringing your systems/platform into compliance through the use of [Ansible]
+  - Audit your current system/platform using [Goss]
+
+- highly configurable to work with your systems
 
 |||
 |--|--|
-|[<img src="https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/cis-logo.png?h=86&iar=0&w=300&rev=cab111cd442d438e9a25aad90b81bcfe&hash=864E27F8A942D9677949C871231E0E2F" alt="CIS" />](https://www.cisecurity.org/cis-benchmarks)|[<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />](https://public.cyber.mil/stigs/)|
-|[CIS - Centre for Internet Security]|[DISA STIG]|
+|<img src="https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/cis-logo.png?h=86&iar=0&w=300&rev=cab111cd442d438e9a25aad90b81bcfe&hash=864E27F8A942D9677949C871231E0E2F" alt="CIS" />|<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />|
 |[CIS Repos](#cis)|[STIG Repos](#stig)|
 ---
-
-
-- Assist in bringing your systems/platform into compliance through the use of [Ansible]
-- Audit your current system/platform using [Goss]
 
 ## Repositories
 
@@ -159,6 +163,8 @@ Following entries used for consistent links across the document
 [DISA STIG]: https://public.cyber.mil/stigs
 [GOSS]: https://goss.rocks
 [MindPointGroup]: https://mindpointgroup.com
+[Discord]: https://discord.io/ansible-lockdown
+[Lockdown]: https://lockdownenterprise.com
 
 <!---
 CIS Repo links
