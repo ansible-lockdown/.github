@@ -22,6 +22,10 @@ Based upon industry recognised benchmarks, Using leading products to enable high
 |--|--|
 |[<img src="https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/cis-logo.png?h=86&iar=0&w=300&rev=cab111cd442d438e9a25aad90b81bcfe&hash=864E27F8A942D9677949C871231E0E2F" alt="CIS" />](https://www.cisecurity.org/cis-benchmarks)|[<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />](https://public.cyber.mil/stigs/)|
 |[CIS - Centre for Internet Security]|[DISA STIG]|
+|[Linux](#CIS-Linux)|[STIG](#Linux)|
+|[Windows](#CIS-Windows)|[STIG](#Linux)|
+|[Platform](#CIS-Platform)|[STIG](#Linux)|
+|[Applications](#CIS-Applications)|[STIG](#Linux)|
 
 - Assist in bringing your systems/platform into compliance through the use of [Ansible]
 - Audit your current system/platform using [Goss]
@@ -30,7 +34,7 @@ Based upon industry recognised benchmarks, Using leading products to enable high
 
 ### CIS
 
-#### Linux
+#### CIS-Linux
 
 |OS|Remediate|Audit|
 |--|--|--|
@@ -42,7 +46,7 @@ Based upon industry recognised benchmarks, Using leading products to enable high
 |UBUNTU20-CIS|[UBUNTU20-CIS]|[UBUNTU20-CIS-Audit]|
 |UBUNTU22-CIS|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
 
-#### Windows
+#### CIS-Windows
 
 |OS|Remediate|Audit|
 |--|--|--|
@@ -50,7 +54,7 @@ Based upon industry recognised benchmarks, Using leading products to enable high
 |Windows-2019-CIS|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
 |Windows-2022-CIS|[Windows-2022-CIS]|[Windows-2022-CIS-Audit]|
 
-#### Cloud Platform
+#### CIS-Cloud
 
 |OS|Remediate|Audit|
 |--|--|--|
@@ -58,7 +62,7 @@ Based upon industry recognised benchmarks, Using leading products to enable high
 |[AWS-Foundations]|[AWS-Foundations]|False|
 |[Azure-CIS]|[Azure-CIS]|False|
 
-#### Applications
+#### CIS-Applications
 
 |Application|Remediate|Audit|
 |--|--|--|
