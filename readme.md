@@ -52,7 +52,7 @@ Based upon industry recognised benchmarks, Using leading products to enable high
 |OS|Remediate|Audit|
 |--|--|--|
 |Windows-2016|[Windows-2016-CIS]|[Windows-2016-CIS-Audit]|
-|Windows-2019[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
+|Windows-2019|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
 |Windows-2022|[Windows-2022-CIS]|[Windows-2022-CIS-Audit]|
 
 #### CIS-Cloud
