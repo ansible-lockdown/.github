@@ -26,7 +26,7 @@ Based upon industry recognised benchmarks and best practices, Using leading prod
   - Assist in bringing your systems/platform into compliance through the use of [Ansible]
   - Audit your current system/platform using [Goss]
 
-- highly configurable to work with your systems
+- Highly configurable to work with your systems
 
 |||
 |--|--|
