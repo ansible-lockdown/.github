@@ -44,10 +44,12 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 - Ansible Lockdown
   - [Ansible Galaxy]
   - [Community Discussions] using discord
+  - [Videos]
   - [Full Repository list]
+  - [G2 reviews]
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/AnsibleLockdown.svg?style=social&label=Follow%20%40AnsibleLockdown)](https://twitter.com/AnsibleLockdown)
 
-- MindPoint Group and other services: [MindPoint Group]("[MindPointGroup]")
+- MindPoint Group and other services: [MindPoint Group]
 
   - [![Linkedin Url](images/LinkedIn-Blue.png)](https://www.linkedin.com/company/mindpoint-group-llc/)
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/MindPointGroup.svg?style=social&label=Follow%20%40MindPointGroup)](https://twitter.com/MindPointGroup)
@@ -179,17 +181,19 @@ Following entries used for consistent links across the document
 --->
 [Ansible]: https://www.ansible.com
 [Ansible Galaxy]: https://galaxy.ansible.com/search?deprecated=false&keywords=mindpointgroup&order_by=-relevance&page=1
+<!---
 [CIS - Centre for Internet Security]: https://www.cisecurity.org
 [DISA STIG]: https://public.cyber.mil/stigs
-[G2_reviews]: https://www.g2.com/products/ansible-lockdown/reviews
+[G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
+--->
 [GOSS]: https://goss.rocks
 [MindPoint Group]: https://mindpointgroup.com
 [MPG_lockdown]: https://www.mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#LockdownReadMe
 [Community Discussions]: https://discord.io/ansible-lockdown
 [LockdownEnterprise]: https://lockdownenterprise.com
-[Linkedin]: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fmindpoint-group-llc&trk=organization_guest_nav-header-join
 [ReadTheDocs]: https://ansible-lockdown.readthedocs.io/en/latest/
 [Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
+[Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
 
 <!---
 CIS Repo links
