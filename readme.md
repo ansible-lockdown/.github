@@ -1,11 +1,12 @@
 # Welcome to ansible lockdown
 
-## Brought to you by
+## A part of the lockdown suite by
 
 <center>
-<img src="images/mindpoint_logo.png" width="75" height="75" alt="MindPointGroup"/>
 
-[MindPoint Group]
+<a href="[MPG_lockdown]" target="_blank">
+<img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="250" height="100" alt="MindPointGroup"/>
+</a>
 
 </center>
 
@@ -17,7 +18,7 @@ Based upon the following products
 
 ## What is it?
 
-Based upon industry recognised benchmarks and best practices, Using leading products to enable highly adjustable configurations to bring your systems/platforms into security compliance.
+Based upon industry recognized benchmarks and best practices, Using leading products to enable highly adjustable configurations to bring your systems/platforms into security compliance.
 
 - Open Source (MIT licensed)
   - Community supported as standard
@@ -26,6 +27,11 @@ Based upon industry recognised benchmarks and best practices, Using leading prod
   - Assist in bringing your systems/platform into compliance through the use of [Ansible]
   - Audit your current system/platform using [Goss]
 - Highly configurable to work with your systems
+
+## Need support?
+
+- [Enterprise Support]("[LockdownEnterprise]")
+- [Documentation]("[ReadtheDocs]")
 
 |||
 |--|--|
@@ -37,15 +43,14 @@ Based upon industry recognised benchmarks and best practices, Using leading prod
 ## Useful Links
 
 - Ansible Lockdown
+  - [Ansible Galaxy]
   - [Community]("[Discord]") using discord
-  - [Documentation]("[ReadtheDocs]")
-  - [Enterprise Support]("[LockdownEnterprise]")
   - [Full Repository list]("[RepositoryList]")
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/AnsibleLockdown.svg?style=social&label=Follow%20%40AnsibleLockdown)](https://twitter.com/AnsibleLockdown)
 
 - MindPoint Group and other services: [MindPoint Group]("[MindPointGroup]")
 
-  - [![LinkedinUrl](images/LinkedIn-Blue.png)](https://www.linkedin.com/company/mindpoint-group-llc/)
+  - [![Linkedin Url](images/LinkedIn-Blue.png)](https://www.linkedin.com/company/mindpoint-group-llc/)
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/MindPointGroup.svg?style=social&label=Follow%20%40MindPointGroup)](https://twitter.com/MindPointGroup)
 
 ## Repositories
@@ -172,11 +177,14 @@ Based upon industry recognised benchmarks and best practices, Using leading prod
 <!---
 Following entries used for consistent links across the document
 --->
-[ansible]: https://www.ansible.com
+[Ansible]: https://www.ansible.com
+[Ansible Galaxy]: https://galaxy.ansible.com/search?deprecated=false&keywords=mindpointgroup&order_by=-relevance&page=1
 [CIS - Centre for Internet Security]: https://www.cisecurity.org
 [DISA STIG]: https://public.cyber.mil/stigs
+[G2_reviews]: https://www.g2.com/products/ansible-lockdown/reviews
 [GOSS]: https://goss.rocks
 [MindPoint Group]: https://mindpointgroup.com
+[MPG_lockdown]: https://www.mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#LockdownReadMe
 [Discord]: https://discord.io/ansible-lockdown
 [LockdownEnterprise]: https://lockdownenterprise.com
 [Linkedin]: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fmindpoint-group-llc&trk=organization_guest_nav-header-join
