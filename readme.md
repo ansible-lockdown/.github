@@ -8,7 +8,7 @@
 
 ### Based upon the following products
 
-| Remediation Roles | Audit Roles|
+| Remediation Roles | Audit Profiles |
 :----: | :----:
 |[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](http://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
@@ -27,8 +27,8 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ## Content
 
-|||
-|--|--|
+|CIS| DISA-STIG |
+|:--|:--:|
 |<img src="https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/cis-logo.png?h=86&iar=0&w=300&rev=cab111cd442d438e9a25aad90b81bcfe&hash=864E27F8A942D9677949C871231E0E2F" alt="CIS" />|<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />|
 |[CIS Repos](#cis)|[STIG Repos](#stig)|
 
@@ -49,8 +49,9 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
   - [G2 reviews]
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/AnsibleLockdown.svg?style=social&label=Follow%20%40AnsibleLockdown)](https://twitter.com/AnsibleLockdown)
 
-- MindPoint Group and other services: [MindPoint Group]
+- MindPoint Group and other services:
 
+  - [MindPoint Group]
   - [![Linkedin Url](images/LinkedIn-Blue.png)](https://www.linkedin.com/company/mindpoint-group-llc/)
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/MindPointGroup.svg?style=social&label=Follow%20%40MindPointGroup)](https://twitter.com/MindPointGroup)
 
@@ -184,8 +185,8 @@ Following entries used for consistent links across the document
 <!---
 [CIS - Centre for Internet Security]: https://www.cisecurity.org
 [DISA STIG]: https://public.cyber.mil/stigs
-[G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
 --->
+[G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
 [GOSS]: https://goss.rocks
 [MindPoint Group]: https://mindpointgroup.com
 [MPG_lockdown]: https://www.mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#LockdownReadMe
