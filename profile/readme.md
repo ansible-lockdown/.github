@@ -25,10 +25,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
   - Audit your current system/platform using [Goss]
 - Highly configurable to work with your systems
 
-## Looking for support?
-
-- [Enterprise Support]("[LockdownEnterprise]")
-- [Documentation]("[ReadtheDocs]")
+## Content
 
 |||
 |--|--|
@@ -36,6 +33,11 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |[CIS Repos](#cis)|[STIG Repos](#stig)|
 
 ---
+
+## Looking for support?
+
+- [Enterprise Support]("[LockdownEnterprise]")
+- [Documentation]("[ReadtheDocs]")
 
 ## Useful Links
 
