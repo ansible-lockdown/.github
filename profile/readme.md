@@ -1,14 +1,16 @@
+<centre>
+
 # Welcome to Ansible Lockdown
 
-|<div style="width:300px"></div>A part of the lockdown suite by|
+|<div style="width:400px"></div>Part of the lockdown suite by|
 | :---: |
-|<a href="[MPG_lockdown]" target="_blank">
-<img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPointGroup"/></a>|
+|<a href="[MPG_lockdown]" target="_blank"><img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPoint Group"/></a>|
 
-**Based upon the following products**
+### Based upon the following products
+
 |<div style="width:290px"></div>| |
-| :----: | :----: |
-|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="150" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](http://goss.rocks)|
+:----: | :----:
+|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](http://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
 
 ## What is it?
@@ -23,7 +25,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
   - Audit your current system/platform using [Goss]
 - Highly configurable to work with your systems
 
-## Need support?
+## Looking for support?
 
 - [Enterprise Support]("[LockdownEnterprise]")
 - [Documentation]("[ReadtheDocs]")
@@ -32,7 +34,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |--|--|
 |<img src="https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/cis-logo.png?h=86&iar=0&w=300&rev=cab111cd442d438e9a25aad90b81bcfe&hash=864E27F8A942D9677949C871231E0E2F" alt="CIS" />|<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />|
 |[CIS Repos](#cis)|[STIG Repos](#stig)|
-|||
+
 ---
 
 ## Useful Links
@@ -54,13 +56,12 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ---
 
-||
+|Links|
 |---|
 |[CIS-Linux](#cis-linux)|
 |[CIS-Windows](#cis-windows)|
 |[CIS-Platform](#cis-platform)|
 |[CIS-Applications](#cis-applications)|
-||
 
 ---
 
@@ -115,7 +116,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ---
 
-||
+|Links|
 |---|
 |[STIG-Linux](#stig-linux)|
 |[STIG-Windows](#stig-windows)|
@@ -168,6 +169,8 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |[Windows-2008R2-Member-Server-STIG]|
 |[Windows-2012-Member-Server-STIG]|
 |[Windows-2012-Domain-Controller-STIG]|
+
+</centre>
 
 <!---
 Following entries used for consistent links across the document
