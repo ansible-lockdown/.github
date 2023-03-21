@@ -2,11 +2,11 @@
 
 ## A part of the lockdown suite by
 
-| <div style="width:500px"></div> | | |
-|----|:----:|----|
-||<a href="[MPG_lockdown]" target="_blank">
+| <div style="width:500px"></div> |
+|:----:|
+|<a href="[MPG_lockdown]" target="_blank">
 <img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPointGroup"/></a>|
-| | |
+| |
 
 **Based upon the following products**
 |<div style="width:290px"></div>|<div style="width:290px"></div>|
