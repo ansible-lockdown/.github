@@ -8,7 +8,7 @@
 
 ### Based upon the following products
 
-|<div style="width:290px"></div>| |
+| Remediation Roles | Audit Roles|
 :----: | :----:
 |[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](http://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
@@ -43,8 +43,8 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 - Ansible Lockdown
   - [Ansible Galaxy]
-  - [Community]("[Discord]") using discord
-  - [Full Repository list]("[RepositoryList]")
+  - [Community Discussions] using discord
+  - [Full Repository list]
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/AnsibleLockdown.svg?style=social&label=Follow%20%40AnsibleLockdown)](https://twitter.com/AnsibleLockdown)
 
 - MindPoint Group and other services: [MindPoint Group]("[MindPointGroup]")
@@ -185,11 +185,11 @@ Following entries used for consistent links across the document
 [GOSS]: https://goss.rocks
 [MindPoint Group]: https://mindpointgroup.com
 [MPG_lockdown]: https://www.mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#LockdownReadMe
-[Discord]: https://discord.io/ansible-lockdown
+[Community Discussions]: https://discord.io/ansible-lockdown
 [LockdownEnterprise]: https://lockdownenterprise.com
 [Linkedin]: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fmindpoint-group-llc&trk=organization_guest_nav-header-join
 [ReadTheDocs]: https://ansible-lockdown.readthedocs.io/en/latest/
-[Repository List]: https://github.com/orgs/ansible-lockdown/repositories
+[Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
 
 <!---
 CIS Repo links
