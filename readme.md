@@ -1,19 +1,16 @@
-# Welcome to ansible lockdown
+<centre>
 
-## A part of the lockdown suite by
+# Welcome to Ansible Lockdown
 
-<center>
+|<div style="width:400px"></div>Part of the lockdown suite by|
+| :---: |
+|<a href="[MPG_lockdown]" target="_blank"><img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPoint Group"/></a>|
 
-<a href="[MPG_lockdown]" target="_blank">
-<img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="250" height="100" alt="MindPointGroup"/>
-</a>
+### Based upon the following products
 
-</center>
-
-Based upon the following products
-| | |
-|--|--|
-|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="100" height="100" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="75" height="75" alt="Github hosted goss" />](http://goss.rocks)|
+| Remediation Roles | Audit Roles|
+:----: | :----:
+|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](http://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
 
 ## What is it?
@@ -28,27 +25,31 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
   - Audit your current system/platform using [Goss]
 - Highly configurable to work with your systems
 
-## Need support?
-
-- [Enterprise Support]("[LockdownEnterprise]")
-- [Documentation]("[ReadtheDocs]")
+## Content
 
 |||
 |--|--|
 |<img src="https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/cis-logo.png?h=86&iar=0&w=300&rev=cab111cd442d438e9a25aad90b81bcfe&hash=864E27F8A942D9677949C871231E0E2F" alt="CIS" />|<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />|
 |[CIS Repos](#cis)|[STIG Repos](#stig)|
-|||
+
 ---
+
+## Looking for support?
+
+- [Enterprise Support]("[LockdownEnterprise]")
+- [Documentation]("[ReadtheDocs]")
 
 ## Useful Links
 
 - Ansible Lockdown
   - [Ansible Galaxy]
-  - [Community]("[Discord]") using discord
-  - [Full Repository list]("[RepositoryList]")
+  - [Community Discussions] using discord
+  - [Videos]
+  - [Full Repository list]
+  - [G2 reviews]
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/AnsibleLockdown.svg?style=social&label=Follow%20%40AnsibleLockdown)](https://twitter.com/AnsibleLockdown)
 
-- MindPoint Group and other services: [MindPoint Group]("[MindPointGroup]")
+- MindPoint Group and other services: [MindPoint Group]
 
   - [![Linkedin Url](images/LinkedIn-Blue.png)](https://www.linkedin.com/company/mindpoint-group-llc/)
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/MindPointGroup.svg?style=social&label=Follow%20%40MindPointGroup)](https://twitter.com/MindPointGroup)
@@ -59,13 +60,12 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ---
 
-||
+|Links|
 |---|
 |[CIS-Linux](#cis-linux)|
 |[CIS-Windows](#cis-windows)|
 |[CIS-Platform](#cis-platform)|
 |[CIS-Applications](#cis-applications)|
-||
 
 ---
 
@@ -120,7 +120,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ---
 
-||
+|Links|
 |---|
 |[STIG-Linux](#stig-linux)|
 |[STIG-Windows](#stig-windows)|
@@ -174,22 +174,26 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |[Windows-2012-Member-Server-STIG]|
 |[Windows-2012-Domain-Controller-STIG]|
 
+</centre>
+
 <!---
 Following entries used for consistent links across the document
 --->
 [Ansible]: https://www.ansible.com
 [Ansible Galaxy]: https://galaxy.ansible.com/search?deprecated=false&keywords=mindpointgroup&order_by=-relevance&page=1
+<!---
 [CIS - Centre for Internet Security]: https://www.cisecurity.org
 [DISA STIG]: https://public.cyber.mil/stigs
-[G2_reviews]: https://www.g2.com/products/ansible-lockdown/reviews
+[G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
+--->
 [GOSS]: https://goss.rocks
 [MindPoint Group]: https://mindpointgroup.com
 [MPG_lockdown]: https://www.mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#LockdownReadMe
-[Discord]: https://discord.io/ansible-lockdown
+[Community Discussions]: https://discord.io/ansible-lockdown
 [LockdownEnterprise]: https://lockdownenterprise.com
-[Linkedin]: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fmindpoint-group-llc&trk=organization_guest_nav-header-join
 [ReadTheDocs]: https://ansible-lockdown.readthedocs.io/en/latest/
-[Repository List]: https://github.com/orgs/ansible-lockdown/repositories
+[Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
+[Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
 
 <!---
 CIS Repo links
