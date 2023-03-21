@@ -3,14 +3,14 @@
 ## A part of the lockdown suite by
 
 | <div style="width:500px"></div> | | |
-:----:|----|----|
+|----|:----:|----|
 ||<a href="[MPG_lockdown]" target="_blank">
 <img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPointGroup"/></a>|
 | | |
 
 **Based upon the following products**
 |<div style="width:290px"></div>|<div style="width:290px"></div>|
-:----:|:----:|
+|:----:|:----:|
 |[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="150" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](http://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
 
