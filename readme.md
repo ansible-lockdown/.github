@@ -36,15 +36,15 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ## Looking for support?
 
-- [Enterprise Support]("[LockdownEnterprise]")
-- [Documentation]("[ReadtheDocs]")
+- [Enterprise Support]
+- [Documentation]
 
 ## Useful Links
 
 - Ansible Lockdown
   - [Ansible Galaxy]
   - [Community Discussions] using discord
-  - [Videos]
+  - [Demos and Support Videos]
   - [Full Repository list]
   - [G2 reviews]
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/AnsibleLockdown.svg?style=social&label=Follow%20%40AnsibleLockdown)](https://twitter.com/AnsibleLockdown)
@@ -187,14 +187,14 @@ Following entries used for consistent links across the document
 [DISA STIG]: https://public.cyber.mil/stigs
 --->
 [G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
-[GOSS]: https://goss.rocks
-[MindPoint Group]: https://mindpointgroup.com
+[GOSS]: https://goss.rocks/
+[MindPoint Group]: https://mindpointgroup.com/
 [MPG_lockdown]: https://www.mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#LockdownReadMe
-[Community Discussions]: https://discord.io/ansible-lockdown
-[LockdownEnterprise]: https://lockdownenterprise.com
-[ReadTheDocs]: https://ansible-lockdown.readthedocs.io/en/latest/
-[Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
-[Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
+[Community Discussions]: https://discord.io/ansible-lockdown/
+[Enterprise Support]: https://lockdownenterprise.com/
+[Documentation]: https://ansible-lockdown.readthedocs.io/en/latest/
+[Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories/
+[Demos and Support Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
 
 <!---
 CIS Repo links

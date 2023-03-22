@@ -2,15 +2,15 @@
 
 # Welcome to Ansible Lockdown
 
-|<div style="width:400px"></div>Part of the lockdown suite by|
+|<div style="width:400px"></div>Part of the [Lockdown Suite] by|
 | :---: |
-|<a href="[MPG_lockdown]" target="_blank"><img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPoint Group"/></a>|
+|<a href="https://mindpointgroup.com" target="_blank"><img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPoint Group"/></a>|
 
 ### Based upon the following products
 
 | Remediation Roles | Audit Profiles |
 :----: | :----:
-|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](http://goss.rocks)|
+|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
 
 ## What is it?
@@ -36,7 +36,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ## Looking for support?
 
-- [Enterprise Support]("[LockdownEnterprise]")
+- [Enterprise Support]([LockdownEnterprise])
 - [Documentation]("[ReadtheDocs]")
 
 ## Useful Links
@@ -192,6 +192,7 @@ Following entries used for consistent links across the document
 [MPG_lockdown]: https://www.mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#LockdownReadMe
 [Community Discussions]: https://discord.io/ansible-lockdown
 [LockdownEnterprise]: https://lockdownenterprise.com
+[Lockdown Suite]: https://lockdownenterprise.com
 [ReadTheDocs]: https://ansible-lockdown.readthedocs.io/en/latest/
 [Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
 [Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
