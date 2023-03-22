@@ -181,7 +181,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 Following entries used for consistent links across the document
 --->
 [Ansible]: https://www.ansible.com
-[Ansible Galaxy]: https://galaxy.ansible.com/search?deprecated=false&keywords=mindpointgroup&order_by=-relevance&page=1
+[Ansible Galaxy]: https://galaxy.ansible.com/MindPointGroup
 <!---
 [CIS - Centre for Internet Security]: https://www.cisecurity.org
 [DISA STIG]: https://public.cyber.mil/stigs
