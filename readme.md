@@ -1,8 +1,6 @@
-<centre>
-
 # Welcome to Ansible Lockdown
 
-|<div style="width:400px"></div>Part of the lockdown suite by|
+|<div style="width:400px"></div>Part of the [Lockdown Suite] by|
 | :---: |
 |<a href="https://mindpointgroup.com#GH_LockdownReadMe" target="_blank"><img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPoint Group"/></a>|
 
@@ -10,7 +8,7 @@
 
 | Remediation Roles | Audit Profiles |
 :----: | :----:
-|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](http://goss.rocks)|
+|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
 
 ## What is it?
@@ -44,7 +42,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 - Ansible Lockdown
   - [Ansible Galaxy]
   - [Community Discussions] using discord
-  - [Demos and Support Videos]
+  - [Videos]
   - [Full Repository list]
   - [G2 reviews]
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/AnsibleLockdown.svg?style=social&label=Follow%20%40AnsibleLockdown)](https://twitter.com/AnsibleLockdown)
@@ -175,8 +173,6 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |[Windows-2012-Member-Server-STIG]|
 |[Windows-2012-Domain-Controller-STIG]|
 
-</centre>
-
 <!---
 Following entries used for consistent links across the document
 --->
@@ -187,14 +183,14 @@ Following entries used for consistent links across the document
 [DISA STIG]: https://public.cyber.mil/stigs
 --->
 [G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
-[GOSS]: https://goss.rocks/
-[MindPoint Group]: https://mindpointgroup.com#GH_LockdownReadMe
-[MPG_lockdown]: https://mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#GH_LockdownReadMe
-[Community Discussions]: https://discord.io/ansible-lockdown/
+[GOSS]: https://goss.rocks
+[MindPoint Group]: https://mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#GH_LockdownReadMe
+[Community Discussions]: https://discord.io/ansible-lockdown
 [Enterprise Support]: https://lockdownenterprise.com
+[Lockdown Suite]: https://lockdownenterprise.com#GH_LockdownReadMe
 [Documentation]: https://ansible-lockdown.readthedocs.io/en/latest/
-[Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories/
-[Demos and Support Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
+[Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
+[Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
 
 <!---
 CIS Repo links

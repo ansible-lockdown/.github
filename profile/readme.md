@@ -1,5 +1,3 @@
-<centre>
-
 # Welcome to Ansible Lockdown
 
 |<div style="width:400px"></div>Part of the [Lockdown Suite] by|
@@ -175,8 +173,6 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |[Windows-2012-Member-Server-STIG]|
 |[Windows-2012-Domain-Controller-STIG]|
 
-</centre>
-
 <!---
 Following entries used for consistent links across the document
 --->
@@ -188,11 +184,10 @@ Following entries used for consistent links across the document
 --->
 [G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
 [GOSS]: https://goss.rocks
-[MindPoint Group]: https://mindpointgroup.com#GH_LockdownReadMe
-[MPG_lockdown]: https://mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#GH_LockdownReadMe
+[MindPoint Group]: https://mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#GH_LockdownReadMe
 [Community Discussions]: https://discord.io/ansible-lockdown
 [Enterprise Support]: https://lockdownenterprise.com
-[Lockdown Suite]: https://lockdownenterprise.com
+[Lockdown Suite]: https://lockdownenterprise.com#GH_LockdownReadMe
 [Documentation]: https://ansible-lockdown.readthedocs.io/en/latest/
 [Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
 [Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
