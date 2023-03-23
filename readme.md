@@ -4,7 +4,7 @@
 
 |<div style="width:400px"></div>Part of the lockdown suite by|
 | :---: |
-|<a href="[MPG_lockdown]" target="_blank"><img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPoint Group"/></a>|
+|<a href="https://mindpointgroup.com#GH_LockdownReadMe" target="_blank"><img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPoint Group"/></a>|
 
 ### Based upon the following products
 
@@ -188,10 +188,10 @@ Following entries used for consistent links across the document
 --->
 [G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
 [GOSS]: https://goss.rocks/
-[MindPoint Group]: https://mindpointgroup.com/
-[MPG_lockdown]: https://www.mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#LockdownReadMe
+[MindPoint Group]: https://mindpointgroup.com#GH_LockdownReadMe
+[MPG_lockdown]: https://mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#GH_LockdownReadMe
 [Community Discussions]: https://discord.io/ansible-lockdown/
-[Enterprise Support]: https://lockdownenterprise.com/
+[Enterprise Support]: https://lockdownenterprise.com
 [Documentation]: https://ansible-lockdown.readthedocs.io/en/latest/
 [Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories/
 [Demos and Support Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
