@@ -193,7 +193,7 @@ Following entries used for consistent links across the document
 [Community Discussions]: https://discord.io/ansible-lockdown
 [Enterprise Support]: https://lockdownenterprise.com
 [Lockdown Suite]: https://lockdownenterprise.com
-[ReadTheDocs]: https://ansible-lockdown.readthedocs.io/en/latest/
+[Documentation]: https://ansible-lockdown.readthedocs.io/en/latest/
 [Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
 [Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
 
