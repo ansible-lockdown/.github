@@ -1,6 +1,8 @@
 # Welcome to Ansible Lockdown
 
 ![Org Stars](https://img.shields.io/github/stars/ansible-lockdown?label=Org%20Stars&style=social)
+![Lockdown_followers](https://img.shields.io/github/followers/ansible-lockdown?style=social)
+![Discord_active](https://img.shields.io/discord/925818806838919229?logo=discord)
 
 |<div style="width:400px"></div>Part of the [Lockdown Suite] by|
 | :---: |
@@ -111,10 +113,9 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |Application|Remediate|Audit|
 |--|--|--|
 |Apache-2.4-CIS|[Apache-2.4-CIS]|N/A|
-|Postgres-9-CIS|[Postgres-12-CIS]|N/A|
+|Postgres-12-CIS|[Postgres-12-CIS]|N/A|
 |Kubernetes1.6.1-CIS|[Kubernetes1.6.1-CIS]|N/A|
 
----
 ---
 
 ### STIG
@@ -159,9 +160,9 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |Application|Remediate|Audit|
 |--|--|--|
 |Apache-2.4-STIG|[Apache-2.4-STIG]|NA|
-|Postgres-9-STIG|[Postgres-9-STIG]|NA|
 |Cisco-IOS-L2S|[Cisco-IOS-L2S-STIG]|NA|
 |Windows-Advanced-Firewall|[WinFWADV-STIG]|[WinFWADV-STIG-Audit]|
+|KUBERNETES-STIG|[KUBERNETES-STIG]|NA|
 
 #### STIG-Archived
 
@@ -174,6 +175,10 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |[Windows-2008R2-Member-Server-STIG]|
 |[Windows-2012-Member-Server-STIG]|
 |[Windows-2012-Domain-Controller-STIG]|
+
+|Application|
+|--|
+|[Postgres-9-STIG]|
 
 <!---
 Following entries used for consistent links across the document
@@ -210,8 +215,8 @@ CIS Repo links
 [UBUNTU18-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU18-CIS-Audit
 [UBUNTU20-CIS]: https://github.com/ansible-lockdown/UBUNTU20-CIS
 [UBUNTU20-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU20-CIS-Audit
-[UBUNTU22-CIS]: https://github.com/ansible-lockdown/UBUNTU20-CIS
-[UBUNTU22-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU20-CIS-Audit
+[UBUNTU22-CIS]: https://github.com/ansible-lockdown/UBUNTU22-CIS
+[UBUNTU22-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU22-CIS-Audit
 
 [Windows-2016-CIS]: https://github.com/ansible-lockdown/Windows-2016-CIS
 [Windows-2016-CIS-Audit]: https://github.com/ansible-lockdown/Windows-2016-CIS-Audit
@@ -227,6 +232,8 @@ CIS Repo links
 [Apache-2.4-CIS]: https://github.com/ansible-lockdown/APACHE-2.4-CIS
 [Postgres-12-CIS]: https://github.com/ansible-lockdown/POSTGRES-12-CIS
 [Kubernetes1.6.1-CIS]: https://github.com/ansible-lockdown/Kubernetes1.6.1-CIS
+[KUBERNETES-STIG]: https://github.com/ansible-lockdown/KUBERNETES-STIG
+
 
 <!---
 STIG Repo links
@@ -238,7 +245,7 @@ STIG Repo links
 [RHEL8-STIG-Audit]: https://github.com/ansible-lockdown/RHEL8-STIG-Audit
 [UBUNTU18-STIG]: https://github.com/ansible-lockdown/UBUNTU18-STIG
 [UBUNTU18-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU18-STIG-Audit
-[UBUNTU20-STIG]: https://github.com/ansible-lockdown/UBUNTU18-STIG
+[UBUNTU20-STIG]: https://github.com/ansible-lockdown/UBUNTU20-STIG
 
 [Windows-10-STIG]: https://github.com/ansible-lockdown/Windows-10-STIG
 [Windows-2016-STIG]: https://github.com/ansible-lockdown/Windows-2016-STIG
