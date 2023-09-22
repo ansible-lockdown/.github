@@ -79,12 +79,14 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |OS|Remediate|Ansible Galaxy|Audit|
 |--|--|--|--|
 |Amazon2|[Amazon2-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61757?label=Quality&&logo=ansible)|[Amazon2-CIS-Audit]|
+|Amazon2023|[Amazon2023-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/63335?label=Quality&&logo=ansible)|[Amazon2023-CIS-Audit]|
+|Debian11|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
 |RHEL7|[RHEL7-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/56324?label=Quality&&logo=ansible)|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/56380?label=Quality&&logo=ansible)|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61781?label=Quality&&logo=ansible)|[RHEL9-CIS-Audit]|
 |UBUNTU18|[UBUNTU18-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/54776?label=Quality&&logo=ansible)|[UBUNTU18-CIS-Audit]|
 |UBUNTU20|[UBUNTU20-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/54777?label=Quality&&logo=ansible)|[UBUNTU20-CIS-Audit]|
-|UBUNTU22|[UBUNTU22-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/1?label=Quality&&logo=ansible)|[UBUNTU22-CIS-Audit]|
+|UBUNTU22|[UBUNTU22-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/62237?label=Quality&&logo=ansible)|[UBUNTU22-CIS-Audit]|
 
 #### CIS-Windows
 
@@ -92,6 +94,8 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 |OS|Remediate|Ansible Galaxy|Audit|
 |--|--|--|--|
+|Windows-10|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
+|Windows-11|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
 |Windows-2016|[Windows-2016-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/55061?label=Quality&&logo=ansible)|[Windows-2016-CIS-Audit]|
 |Windows-2019|[Windows-2019-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/56324?label=Quality&&logo=ansible)|[Windows-2019-CIS-Audit]|
 |Windows-2022|[Windows-2022-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/1?label=Quality&&logo=ansible)|[Windows-2022-CIS-Audit]|
@@ -139,19 +143,19 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |--|--|--|--|
 |RHEL7|[RHEL7-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61792?label=Quality&&logo=ansible)|[RHEL7-STIG-Audit]|
 |RHEL8|[RHEL8-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/56380?label=Quality&&logo=ansible)|[RHEL8-STIG-Audit]|
-|UBUNTU18|[UBUNTU18-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61237?label=Quality&&logo=ansible)|WIP|
-|UBUNTU20|[UBUNTU20-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61237?label=Quality&&logo=ansible)|WIP|
+|UBUNTU18|[UBUNTU18-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61237?label=Quality&&logo=ansible)|![Static Badge][Coming Soon]|
+|UBUNTU20|[UBUNTU20-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61237?label=Quality&&logo=ansible)|![Static Badge][Coming Soon]|
 
 #### STIG-Windows
 
 ---
 
-|OS|Remediate|Audit|
-|--|--|--|
-|Windows-10|[Windows-10-STIG]|NA|
-|Windows-2016|[Windows-2016-STIG]|NA|
-|Windows-2019|[Windows-2019-STIG]|NA|
-|Windows-2022|[Windows-2022-STIG]|NA|
+|OS|Remediate|Quality|Audit|
+|--|--|--|--|
+|Windows-10|[Windows-10-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61846?label=Quality&&logo=ansible)|NA|
+|Windows-2016|[Windows-2016-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/63003?label=Quality&&logo=ansible)|NA|
+|Windows-2019|[Windows-2019-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/63003?label=Quality&&logo=ansible)|NA|
+|Windows-2022|[Windows-2022-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/63241?label=Quality&&logo=ansible)|NA|
 
 #### STIG-Applications
 
@@ -198,6 +202,7 @@ Following entries used for consistent links across the document
 [Documentation]: https://ansible-lockdown.readthedocs.io/en/latest/
 [Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
 [Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
+[Coming Soon]: https://img.shields.io/badge/Coming%20Soon-0000FF?logo=ansible&labelColor=0000FF
 
 <!---
 CIS Repo links
@@ -205,6 +210,10 @@ CIS Repo links
 
 [Amazon2-CIS]: https://github.com/ansible-lockdown/AMAZON2-CIS
 [Amazon2-CIS-Audit]: https://github.com/ansible-lockdown/AMAZON2-CIS-Audit
+[Amazon2023-CIS]: https://github.com/ansible-lockdown/AMAZON2023-CIS
+[Amazon2023-CIS-Audit]: https://github.com/ansible-lockdown/AMAZON2023-CIS-Audit
+[DEBIAN11-CIS]: https://github.com/ansible-lockdown/DEBIAN11-CIS
+[DEBIAN11-CIS-Audit]: https://github.com/ansible-lockdown/DEBIAN11-CIS-Audit
 [RHEL7-CIS]: https://github.com/ansible-lockdown/RHEL7-CIS
 [RHEL7-CIS-Audit]: https://github.com/ansible-lockdown/RHEL7-CIS-Audit
 [RHEL8-CIS]: https://github.com/ansible-lockdown/RHEL8-CIS
@@ -218,6 +227,10 @@ CIS Repo links
 [UBUNTU22-CIS]: https://github.com/ansible-lockdown/UBUNTU22-CIS
 [UBUNTU22-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU22-CIS-Audit
 
+[Windows-10-CIS]: https://github.com/ansible-lockdown/Windows-10-CIS
+[Windows-10-CIS-Audit]: https://github.com/ansible-lockdown/Windows-10-CIS-Audit
+[Windows-11-CIS]: https://github.com/ansible-lockdown/Windows-11-CIS
+[Windows-11-CIS-Audit]: https://github.com/ansible-lockdown/Windows-11-CIS-Audit
 [Windows-2016-CIS]: https://github.com/ansible-lockdown/Windows-2016-CIS
 [Windows-2016-CIS-Audit]: https://github.com/ansible-lockdown/Windows-2016-CIS-Audit
 [Windows-2019-CIS]: https://github.com/ansible-lockdown/Windows-2019-CIS
@@ -233,7 +246,6 @@ CIS Repo links
 [Postgres-12-CIS]: https://github.com/ansible-lockdown/POSTGRES-12-CIS
 [Kubernetes1.6.1-CIS]: https://github.com/ansible-lockdown/Kubernetes1.6.1-CIS
 [KUBERNETES-STIG]: https://github.com/ansible-lockdown/KUBERNETES-STIG
-
 
 <!---
 STIG Repo links
