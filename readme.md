@@ -86,7 +86,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |RHEL9|[RHEL9-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61781?label=Quality&&logo=ansible)|[RHEL9-CIS-Audit]|
 |UBUNTU18|[UBUNTU18-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/54776?label=Quality&&logo=ansible)|[UBUNTU18-CIS-Audit]|
 |UBUNTU20|[UBUNTU20-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/54777?label=Quality&&logo=ansible)|[UBUNTU20-CIS-Audit]|
-|UBUNTU22|[UBUNTU22-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/1?label=Quality&&logo=ansible)|[UBUNTU22-CIS-Audit]|
+|UBUNTU22|[UBUNTU22-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/62237?label=Quality&&logo=ansible)|[UBUNTU22-CIS-Audit]|
 
 #### CIS-Windows
 
