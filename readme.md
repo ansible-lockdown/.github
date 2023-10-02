@@ -8,7 +8,7 @@
 | :---: |
 |<a href="https://mindpointgroup.com#GH_LockdownReadMe" target="_blank"><img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPoint Group"/></a>|
 
-### Based upon the following products
+## Based upon the following products
 
 | Remediation Roles | Audit Profiles |
 :----: | :----:
@@ -76,25 +76,25 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ---
 
-|OS|Remediate|Ansible Galaxy|Audit|
-|--|--|--|--|
-|Amazon2|[Amazon2-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61757?label=Quality&&logo=ansible)|[Amazon2-CIS-Audit]|
-|RHEL7|[RHEL7-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/56324?label=Quality&&logo=ansible)|[RHEL7-CIS-Audit]|
-|RHEL8|[RHEL8-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/56380?label=Quality&&logo=ansible)|[RHEL8-CIS-Audit]|
-|RHEL9|[RHEL9-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61781?label=Quality&&logo=ansible)|[RHEL9-CIS-Audit]|
-|UBUNTU18|[UBUNTU18-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/54776?label=Quality&&logo=ansible)|[UBUNTU18-CIS-Audit]|
-|UBUNTU20|[UBUNTU20-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/54777?label=Quality&&logo=ansible)|[UBUNTU20-CIS-Audit]|
-|UBUNTU22|[UBUNTU22-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/1?label=Quality&&logo=ansible)|[UBUNTU22-CIS-Audit]|
+|OS|Remediate|Audit|
+|--|--|--|
+|Amazon2|[Amazon2-CIS]|[Amazon2-CIS-Audit]|
+|RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
+|RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
+|RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
+|UBUNTU18|[UBUNTU18-CIS]|[UBUNTU18-CIS-Audit]|
+|UBUNTU20|[UBUNTU20-CIS]|[UBUNTU20-CIS-Audit]|
+|UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
 
 #### CIS-Windows
 
 ---
 
-|OS|Remediate|Ansible Galaxy|Audit|
-|--|--|--|--|
-|Windows-2016|[Windows-2016-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/55061?label=Quality&&logo=ansible)|[Windows-2016-CIS-Audit]|
-|Windows-2019|[Windows-2019-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/56324?label=Quality&&logo=ansible)|[Windows-2019-CIS-Audit]|
-|Windows-2022|[Windows-2022-CIS]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/1?label=Quality&&logo=ansible)|[Windows-2022-CIS-Audit]|
+|OS|Remediate|Audit|
+|--|--|--|
+|Windows-2016|[Windows-2016-CIS]|[Windows-2016-CIS-Audit]|
+|Windows-2019|[Windows-2019-CIS-Audit]|
+|Windows-2022|[Windows-2022-CIS-Audit]|
 
 #### CIS-Platform
 
@@ -135,12 +135,12 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ---
 
-|OS|Remediate|Ansible Galaxy|Audit|
-|--|--|--|--|
-|RHEL7|[RHEL7-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61792?label=Quality&&logo=ansible)|[RHEL7-STIG-Audit]|
-|RHEL8|[RHEL8-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/56380?label=Quality&&logo=ansible)|[RHEL8-STIG-Audit]|
-|UBUNTU18|[UBUNTU18-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61237?label=Quality&&logo=ansible)|WIP|
-|UBUNTU20|[UBUNTU20-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61237?label=Quality&&logo=ansible)|WIP|
+|OS|Remediate|Audit|
+|--|--|--|
+|RHEL7|[RHEL7-STIG]|[RHEL7-STIG-Audit]|
+|RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
+|UBUNTU18|[UBUNTU18-STIG]|WIP|
+|UBUNTU20|[UBUNTU20-STIG]|WIP|
 
 #### STIG-Windows
 
@@ -233,7 +233,6 @@ CIS Repo links
 [Postgres-12-CIS]: https://github.com/ansible-lockdown/POSTGRES-12-CIS
 [Kubernetes1.6.1-CIS]: https://github.com/ansible-lockdown/Kubernetes1.6.1-CIS
 [KUBERNETES-STIG]: https://github.com/ansible-lockdown/KUBERNETES-STIG
-
 
 <!---
 STIG Repo links
