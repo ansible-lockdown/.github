@@ -146,12 +146,12 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ---
 
-|OS|Remediate|Quality|Audit|
-|--|--|--|--|
-|Windows-10|[Windows-10-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/61846?label=Quality&&logo=ansible)|NA|
-|Windows-2016|[Windows-2016-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/63003?label=Quality&&logo=ansible)|NA|
-|Windows-2019|[Windows-2019-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/63003?label=Quality&&logo=ansible)|NA|
-|Windows-2022|[Windows-2022-STIG]|![Ansible Galaxy Quality](https://img.shields.io/ansible/quality/63241?label=Quality&&logo=ansible)|NA|
+|OS|Remediate|Audit|
+|--|--|--|
+|Windows-10|[Windows-10-STIG]|NA|
+|Windows-2016|[Windows-2016-STIG]|NA|
+|Windows-2019|[Windows-2019-STIG]|NA|
+|Windows-2022|[Windows-2022-STIG]|NA|
 
 #### STIG-Applications
 
