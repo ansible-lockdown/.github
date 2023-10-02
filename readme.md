@@ -31,7 +31,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 |CIS| DISA-STIG |
 |:--|:--:|
-|<img src="https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/cis-logo.png?h=86&iar=0&w=300&rev=cab111cd442d438e9a25aad90b81bcfe&hash=864E27F8A942D9677949C871231E0E2F" alt="CIS" />|<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />|
+|[<img src="https://opscompass.com/wp-content/uploads/center-for-internet-security-logo.png" width="200" height="75" alt="CIS" />](https://www.cisecurity.org)|[<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />](https://public.cyber.mil/stigs/)|
 |[CIS Repos](#cis)|[STIG Repos](#stig)|
 
 ---
@@ -146,8 +146,8 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ---
 
-|OS|Remediate|Audit|
-|--|--|--|
+|OS|Remediate|Quality|Audit|
+|--|--|--|--|
 |Windows-10|[Windows-10-STIG]|NA|
 |Windows-2016|[Windows-2016-STIG]|NA|
 |Windows-2019|[Windows-2019-STIG]|NA|
@@ -198,6 +198,7 @@ Following entries used for consistent links across the document
 [Documentation]: https://ansible-lockdown.readthedocs.io/en/latest/
 [Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
 [Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
+[Coming Soon]: https://img.shields.io/badge/Coming%20Soon-0000FF?logo=ansible&labelColor=0000FF
 
 <!---
 CIS Repo links
@@ -205,6 +206,10 @@ CIS Repo links
 
 [Amazon2-CIS]: https://github.com/ansible-lockdown/AMAZON2-CIS
 [Amazon2-CIS-Audit]: https://github.com/ansible-lockdown/AMAZON2-CIS-Audit
+[Amazon2023-CIS]: https://github.com/ansible-lockdown/AMAZON2023-CIS
+[Amazon2023-CIS-Audit]: https://github.com/ansible-lockdown/AMAZON2023-CIS-Audit
+[DEBIAN11-CIS]: https://github.com/ansible-lockdown/DEBIAN11-CIS
+[DEBIAN11-CIS-Audit]: https://github.com/ansible-lockdown/DEBIAN11-CIS-Audit
 [RHEL7-CIS]: https://github.com/ansible-lockdown/RHEL7-CIS
 [RHEL7-CIS-Audit]: https://github.com/ansible-lockdown/RHEL7-CIS-Audit
 [RHEL8-CIS]: https://github.com/ansible-lockdown/RHEL8-CIS
@@ -218,6 +223,10 @@ CIS Repo links
 [UBUNTU22-CIS]: https://github.com/ansible-lockdown/UBUNTU22-CIS
 [UBUNTU22-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU22-CIS-Audit
 
+[Windows-10-CIS]: https://github.com/ansible-lockdown/Windows-10-CIS
+[Windows-10-CIS-Audit]: https://github.com/ansible-lockdown/Windows-10-CIS-Audit
+[Windows-11-CIS]: https://github.com/ansible-lockdown/Windows-11-CIS
+[Windows-11-CIS-Audit]: https://github.com/ansible-lockdown/Windows-11-CIS-Audit
 [Windows-2016-CIS]: https://github.com/ansible-lockdown/Windows-2016-CIS
 [Windows-2016-CIS-Audit]: https://github.com/ansible-lockdown/Windows-2016-CIS-Audit
 [Windows-2019-CIS]: https://github.com/ansible-lockdown/Windows-2019-CIS
