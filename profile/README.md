@@ -12,7 +12,7 @@
 
 | Remediation Roles | Audit Profiles |
 :----: | :----:
-|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="../images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
+|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
 
 ## What is it?
@@ -54,7 +54,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 - MindPoint Group and other services:
 
   - [MindPoint Group]
-  - [![Linkedin Url](../images/LinkedIn-Blue.png)](https://www.linkedin.com/company/mindpoint-group-llc/)
+  - [![Linkedin Url](images/LinkedIn-Blue.png)](https://www.linkedin.com/company/mindpoint-group-llc/)
   - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/MindPointGroup.svg?style=social&label=Follow%20%40MindPointGroup)](https://twitter.com/MindPointGroup)
 
 ## Repositories
