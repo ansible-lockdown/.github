@@ -80,7 +80,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |--|--|--|
 |Amazon2|[Amazon2-CIS]|[Amazon2-CIS-Audit]|
 |Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
-|DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-CIS-Audit]|
+|DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-Audit]|
 |RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
