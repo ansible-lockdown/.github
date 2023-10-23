@@ -79,6 +79,8 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |OS|Remediate|Audit|
 |--|--|--|
 |Amazon2|[Amazon2-CIS]|[Amazon2-CIS-Audit]|
+|Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
+|DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-CIS-Audit]|
 |RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
@@ -92,9 +94,11 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
+|Windows-10|[Windows-10-CIS]|WIP|
+|Windows-11|[Windows-11-CIS]|WIP|
 |Windows-2016|[Windows-2016-CIS]|[Windows-2016-CIS-Audit]|
-|Windows-2019|[Windows-2019-CIS-Audit]|
-|Windows-2022|[Windows-2022-CIS-Audit]|
+|Windows-2019|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
+|Windows-2022|[Windows-2022-CIS]|[Windows-2022-CIS-Audit]|
 
 #### CIS-Platform
 
@@ -112,9 +116,9 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 |Application|Remediate|Audit|
 |--|--|--|
-|Apache-2.4-CIS|[Apache-2.4-CIS]|N/A|
-|Postgres-12-CIS|[Postgres-12-CIS]|N/A|
-|Kubernetes1.6.1-CIS|[Kubernetes1.6.1-CIS]|N/A|
+|Apache-2.4|[Apache-2.4-CIS]|N/A|
+|Postgres-12|[Postgres-12-CIS]|N/A|
+|Kubernetes1.6.1|[Kubernetes1.6.1-CIS]|N/A|
 
 ---
 
@@ -126,7 +130,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |---|
 |[STIG-Linux](#stig-linux)|
 |[STIG-Windows](#stig-windows)|
-|[STIG-Applications](#stig-applications)|[STIG](#stig-application)|
+|[STIG-Applications](#stig-applications)|[STIG](#stig-applications)|
 |[STIG-Archived](#stig-archived)|
 
 ---
@@ -139,8 +143,8 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |--|--|--|
 |RHEL7|[RHEL7-STIG]|[RHEL7-STIG-Audit]|
 |RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
-|UBUNTU18|[UBUNTU18-STIG]|WIP|
-|UBUNTU20|[UBUNTU20-STIG]|WIP|
+|UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
+|UBUNTU20|[UBUNTU20-STIG]|[UBUNTU20-STIG-Audit]|
 
 #### STIG-Windows
 
