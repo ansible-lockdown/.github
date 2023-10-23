@@ -45,7 +45,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 - Ansible Lockdown
   - [Ansible Galaxy]
-  - [Community Discussions] using discord
+  - [Discord Community Discussions]
   - [Videos]
   - [Full Repository list]
   - [G2 reviews]
@@ -196,7 +196,7 @@ Following entries used for consistent links across the document
 [G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
 [GOSS]: https://goss.rocks
 [MindPoint Group]: https://mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#GH_LockdownReadMe
-[Community Discussions]: https://discord.io/ansible-lockdown
+[Discord Community Discussions]: https://www.lockdownenterprise.com/discord
 [Enterprise Support]: https://lockdownenterprise.com
 [Lockdown Suite]: https://lockdownenterprise.com#GH_LockdownReadMe
 [Documentation]: https://ansible-lockdown.readthedocs.io/en/latest/
