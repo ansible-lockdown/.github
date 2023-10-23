@@ -150,8 +150,8 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 ---
 
-|OS|Remediate|Quality|Audit|
-|--|--|--|--|
+|OS|Remediate|Audit|
+|--|--|--|
 |Windows-10|[Windows-10-STIG]|NA|
 |Windows-2016|[Windows-2016-STIG]|NA|
 |Windows-2019|[Windows-2019-STIG]|NA|
