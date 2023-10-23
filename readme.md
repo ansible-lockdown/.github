@@ -258,6 +258,7 @@ STIG Repo links
 [UBUNTU18-STIG]: https://github.com/ansible-lockdown/UBUNTU18-STIG
 [UBUNTU18-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU18-STIG-Audit
 [UBUNTU20-STIG]: https://github.com/ansible-lockdown/UBUNTU20-STIG
+[UBUNTU20-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU20-STIG-Audit
 
 [Windows-10-STIG]: https://github.com/ansible-lockdown/Windows-10-STIG
 [Windows-2016-STIG]: https://github.com/ansible-lockdown/Windows-2016-STIG
