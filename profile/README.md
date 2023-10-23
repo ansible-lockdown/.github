@@ -86,7 +86,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
 |UBUNTU18|[UBUNTU18-CIS]|[UBUNTU18-CIS-Audit]|
 |UBUNTU20|[UBUNTU20-CIS]|[UBUNTU20-CIS-Audit]|
-|UBUNTU22|[UBUNTU22-CIS]|WIP|
+|UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
 
 #### CIS-Windows
 
@@ -144,7 +144,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |RHEL7|[RHEL7-STIG]|[RHEL7-STIG-Audit]|
 |RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
 |UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
-|UBUNTU20|[UBUNTU20-STIG]|[UBUNTU20-STIG-Audit]|
+|UBUNTU20|[UBUNTU20-STIG]|WIP|
 
 #### STIG-Windows
 
