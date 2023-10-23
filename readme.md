@@ -80,13 +80,13 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |--|--|--|
 |Amazon2|[Amazon2-CIS]|[Amazon2-CIS-Audit]|
 |Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
-|DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-Audit]|
+|DEBIAN11|Private|WIP|
 |RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
 |UBUNTU18|[UBUNTU18-CIS]|[UBUNTU18-CIS-Audit]|
 |UBUNTU20|[UBUNTU20-CIS]|[UBUNTU20-CIS-Audit]|
-|UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
+|UBUNTU22|[UBUNTU22-CIS]|WIP|
 
 #### CIS-Windows
 
@@ -94,8 +94,8 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
-|Windows-10|[Windows-10-CIS]|WIP|
-|Windows-11|[Windows-11-CIS]|WIP|
+|Windows-10|Private|WIP|
+|Windows-11|Private|WIP|
 |Windows-2016|[Windows-2016-CIS]|[Windows-2016-CIS-Audit]|
 |Windows-2019|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
 |Windows-2022|[Windows-2022-CIS]|[Windows-2022-CIS-Audit]|
