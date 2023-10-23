@@ -143,6 +143,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |--|--|--|
 |RHEL7|[RHEL7-STIG]|[RHEL7-STIG-Audit]|
 |RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
+|RHEL9|WIP|WIP|
 |UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
 |UBUNTU20|[UBUNTU20-STIG]|WIP|
 
