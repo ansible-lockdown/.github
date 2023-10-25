@@ -80,7 +80,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |--|--|--|
 |Amazon2|[Amazon2-CIS]|[Amazon2-CIS-Audit]|
 |Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
-|DEBIAN11|Private|WIP|
+|DEBIAN11|![Static Badge][Subscribers]|![Static Badge][Coming Soon]|
 |RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
@@ -94,11 +94,11 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
-|Windows-10|Private|WIP|
-|Windows-11|Private|WIP|
+|Windows-10|![Static Badge][Subscribers]|![Static Badge][Coming Soon]|
+|Windows-11|![Static Badge][Subscribers]|![Static Badge][Coming Soon]|
 |Windows-2016|[Windows-2016-CIS]|[Windows-2016-CIS-Audit]|
 |Windows-2019|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
-|Windows-2022|[Windows-2022-CIS]|WIP|
+|Windows-2022|[Windows-2022-CIS]|![Static Badge][Coming Soon]|
 
 #### CIS-Platform
 
@@ -143,9 +143,9 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |--|--|--|
 |RHEL7|[RHEL7-STIG]|[RHEL7-STIG-Audit]|
 |RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
-|RHEL9|WIP|WIP|
+|RHEL9|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
 |UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
-|UBUNTU20|[UBUNTU20-STIG]|WIP|
+|UBUNTU20|[UBUNTU20-STIG]|![Static Badge][Coming Soon]|
 
 #### STIG-Windows
 
@@ -204,6 +204,7 @@ Following entries used for consistent links across the document
 [Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
 [Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
 [Coming Soon]: https://img.shields.io/badge/Coming%20Soon-0000FF?logo=ansible&labelColor=0000FF
+[Subscribers]: https://img.shields.io/badge/Subscribers%20Only-0000FF?logo=ansible&labelColor=0000FF
 
 <!---
 CIS Repo links
