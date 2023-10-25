@@ -17,7 +17,7 @@
 
 ## What is it?
 
-Based upon industry recognized benchmarks and best practices, Using leading products to enable highly adjustable configurations to bring your systems/platforms into security compliance.
+Based upon industry recognized benchmarks and best practices, using leading products to enable highly adjustable configurations to bring your systems/platforms into security compliance.
 
 - Open Source (MIT licensed)
   - Community supported as standard
@@ -45,7 +45,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 - Ansible Lockdown
   - [Ansible Galaxy]
-  - [Community Discussions] using discord
+  - [Discord Community Discussions]
   - [Videos]
   - [Full Repository list]
   - [G2 reviews]
@@ -79,6 +79,8 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |OS|Remediate|Audit|
 |--|--|--|
 |Amazon2|[Amazon2-CIS]|[Amazon2-CIS-Audit]|
+|Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
+|DEBIAN11|Private|WIP|
 |RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
@@ -92,9 +94,11 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
+|Windows-10|Private|WIP|
+|Windows-11|Private|WIP|
 |Windows-2016|[Windows-2016-CIS]|[Windows-2016-CIS-Audit]|
-|Windows-2019|[Windows-2019-CIS-Audit]|
-|Windows-2022|[Windows-2022-CIS-Audit]|
+|Windows-2019|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
+|Windows-2022|[Windows-2022-CIS]|WIP|
 
 #### CIS-Platform
 
@@ -112,9 +116,9 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 |Application|Remediate|Audit|
 |--|--|--|
-|Apache-2.4-CIS|[Apache-2.4-CIS]|N/A|
-|Postgres-12-CIS|[Postgres-12-CIS]|N/A|
-|Kubernetes1.6.1-CIS|[Kubernetes1.6.1-CIS]|N/A|
+|Apache-2.4|[Apache-2.4-CIS]|N/A|
+|Postgres-12|[Postgres-12-CIS]|N/A|
+|Kubernetes1.6.1|[Kubernetes1.6.1-CIS]|N/A|
 
 ---
 
@@ -126,7 +130,7 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |---|
 |[STIG-Linux](#stig-linux)|
 |[STIG-Windows](#stig-windows)|
-|[STIG-Applications](#stig-applications)|[STIG](#stig-application)|
+|[STIG-Applications](#stig-applications)|
 |[STIG-Archived](#stig-archived)|
 
 ---
@@ -139,19 +143,20 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 |--|--|--|
 |RHEL7|[RHEL7-STIG]|[RHEL7-STIG-Audit]|
 |RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
-|UBUNTU18|[UBUNTU18-STIG]|WIP|
+|RHEL9|WIP|WIP|
+|UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
 |UBUNTU20|[UBUNTU20-STIG]|WIP|
 
 #### STIG-Windows
 
 ---
 
-|OS|Remediate|Quality|Audit|
-|--|--|--|--|
-|Windows-10|[Windows-10-STIG]|NA|
-|Windows-2016|[Windows-2016-STIG]|NA|
-|Windows-2019|[Windows-2019-STIG]|NA|
-|Windows-2022|[Windows-2022-STIG]|NA|
+|OS|Remediate|Audit|
+|--|--|--|
+|Windows-10|[Windows-10-STIG]|N/A|
+|Windows-2016|[Windows-2016-STIG]|N/A|
+|Windows-2019|[Windows-2019-STIG]|N/A|
+|Windows-2022|[Windows-2022-STIG]|N/A|
 
 #### STIG-Applications
 
@@ -159,10 +164,10 @@ Based upon industry recognized benchmarks and best practices, Using leading prod
 
 |Application|Remediate|Audit|
 |--|--|--|
-|Apache-2.4-STIG|[Apache-2.4-STIG]|NA|
-|Cisco-IOS-L2S|[Cisco-IOS-L2S-STIG]|NA|
+|Apache-2.4-STIG|[Apache-2.4-STIG]|N/A|
+|Cisco-IOS-L2S|[Cisco-IOS-L2S-STIG]|N/A|
 |Windows-Advanced-Firewall|[WinFWADV-STIG]|[WinFWADV-STIG-Audit]|
-|KUBERNETES-STIG|[KUBERNETES-STIG]|NA|
+|KUBERNETES-STIG|[KUBERNETES-STIG]|N/A|
 
 #### STIG-Archived
 
@@ -192,7 +197,7 @@ Following entries used for consistent links across the document
 [G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
 [GOSS]: https://goss.rocks
 [MindPoint Group]: https://mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#GH_LockdownReadMe
-[Community Discussions]: https://discord.io/ansible-lockdown
+[Discord Community Discussions]: https://www.lockdownenterprise.com/discord
 [Enterprise Support]: https://lockdownenterprise.com
 [Lockdown Suite]: https://lockdownenterprise.com#GH_LockdownReadMe
 [Documentation]: https://ansible-lockdown.readthedocs.io/en/latest/
@@ -254,6 +259,7 @@ STIG Repo links
 [UBUNTU18-STIG]: https://github.com/ansible-lockdown/UBUNTU18-STIG
 [UBUNTU18-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU18-STIG-Audit
 [UBUNTU20-STIG]: https://github.com/ansible-lockdown/UBUNTU20-STIG
+[UBUNTU20-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU20-STIG-Audit
 
 [Windows-10-STIG]: https://github.com/ansible-lockdown/Windows-10-STIG
 [Windows-2016-STIG]: https://github.com/ansible-lockdown/Windows-2016-STIG
