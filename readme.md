@@ -204,6 +204,7 @@ Following entries used for consistent links across the document
 [Documentation]: https://ansible-lockdown.readthedocs.io/en/latest/
 [Full Repository list]: https://github.com/orgs/ansible-lockdown/repositories
 [Videos]: https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv
+[In Development]: https://img.shields.io/badge/In%20Development-0000FF?logo=ansible&labelColor=0000FF
 [Coming Soon]: https://img.shields.io/badge/Coming%20Soon-0000FF?logo=ansible&labelColor=0000FF
 [Subscribers]: https://img.shields.io/badge/Subscribers%20Only-0000FF?logo=ansible&labelColor=0000FF
 
@@ -283,4 +284,3 @@ STIG Repo links
 [Windows-2008R2-Member-Server-STIG]: https://github.com/ansible-lockdown/Windows-2008R2-Member-Server-STIG
 [Windows-2012-Member-Server-STIG]: https://github.com/ansible-lockdown/Windows-2012-Member-Server-STIG
 [Windows-2012-Domain-Controller-STIG]: https://github.com/ansible-lockdown/Windows-2012-Domain-Controller-STIG
-
