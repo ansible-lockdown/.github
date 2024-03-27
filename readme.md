@@ -80,7 +80,8 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |--|--|--|
 |Amazon2|[Amazon2-CIS]|[Amazon2-CIS-Audit]|
 |Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
-|DEBIAN11|![Static Badge][Subscribers]|![Static Badge][Coming Soon]|
+|DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-Audit]|
+|DEBIAN12|![Static Badge][Subscribers]|![Static Badge][Coming Soon]|
 |RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
@@ -143,7 +144,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |--|--|--|
 |RHEL7|[RHEL7-STIG]|[RHEL7-STIG-Audit]|
 |RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
-|RHEL9|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
+|RHEL9|[RHEL9-STIG]|[RHEL9-STIG-Audit]|
 |UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
 |UBUNTU20|[UBUNTU20-STIG]|![Static Badge][Coming Soon]|
 
@@ -216,6 +217,8 @@ CIS Repo links
 [Amazon2023-CIS-Audit]: https://github.com/ansible-lockdown/AMAZON2023-CIS-Audit
 [DEBIAN11-CIS]: https://github.com/ansible-lockdown/DEBIAN11-CIS
 [DEBIAN11-CIS-Audit]: https://github.com/ansible-lockdown/DEBIAN11-CIS-Audit
+[DEBIAN12-CIS]: https://github.com/ansible-lockdown/DEBIAN12-CIS
+[DEBIAN12-CIS-Audit]: https://github.com/ansible-lockdown/DEBIAN12-CIS-Audit
 [RHEL7-CIS]: https://github.com/ansible-lockdown/RHEL7-CIS
 [RHEL7-CIS-Audit]: https://github.com/ansible-lockdown/RHEL7-CIS-Audit
 [RHEL8-CIS]: https://github.com/ansible-lockdown/RHEL8-CIS
@@ -257,6 +260,8 @@ STIG Repo links
 [RHEL7-STIG-Audit]: https://github.com/ansible-lockdown/RHEL7-STIG-Audit
 [RHEL8-STIG]: https://github.com/ansible-lockdown/RHEL8-STIG
 [RHEL8-STIG-Audit]: https://github.com/ansible-lockdown/RHEL8-STIG-Audit
+[RHEL9-STIG]: https://github.com/ansible-lockdown/RHEL9-STIG
+[RHEL9-STIG-Audit]: https://github.com/ansible-lockdown/RHEL9-STIG-Audit
 [UBUNTU18-STIG]: https://github.com/ansible-lockdown/UBUNTU18-STIG
 [UBUNTU18-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU18-STIG-Audit
 [UBUNTU20-STIG]: https://github.com/ansible-lockdown/UBUNTU20-STIG
@@ -278,3 +283,4 @@ STIG Repo links
 [Windows-2008R2-Member-Server-STIG]: https://github.com/ansible-lockdown/Windows-2008R2-Member-Server-STIG
 [Windows-2012-Member-Server-STIG]: https://github.com/ansible-lockdown/Windows-2012-Member-Server-STIG
 [Windows-2012-Domain-Controller-STIG]: https://github.com/ansible-lockdown/Windows-2012-Domain-Controller-STIG
+
