@@ -95,7 +95,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
-|Windows-10|[Windows-10-CIS][Subscribers]|![Static Badge][Coming Soon]|
+|Windows-10|[Windows-10-CIS]|![Static Badge][Coming Soon]|
 |Windows-11|[Windows-11-CIS]|![Static Badge][Coming Soon]|
 |Windows-2016|[Windows-2016-CIS]|[Windows-2016-CIS-Audit]|
 |Windows-2019|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
