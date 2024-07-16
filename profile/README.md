@@ -81,7 +81,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Amazon2|[Amazon2-CIS]|[Amazon2-CIS-Audit]|
 |Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
 |DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-Audit]|
-|DEBIAN12|![Static Badge][In Development]|![Static Badge][In Development]|
+|DEBIAN12|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
 |RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
@@ -95,8 +95,8 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
-|Windows-10|![Static Badge][Subscribers]|![Static Badge][Coming Soon]|
-|Windows-11|![Static Badge][Subscribers]|![Static Badge][Coming Soon]|
+|Windows-10|[Windows-10-CIS]|![Static Badge][Coming Soon]|
+|Windows-11|[Windows-11-CIS]|![Static Badge][Coming Soon]|
 |Windows-2016|[Windows-2016-CIS]|[Windows-2016-CIS-Audit]|
 |Windows-2019|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
 |Windows-2022|[Windows-2022-CIS]|![Static Badge][Coming Soon]|
