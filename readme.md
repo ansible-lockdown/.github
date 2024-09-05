@@ -11,8 +11,8 @@
 ## Based upon the following products
 
 | Remediation Roles | Audit Profiles |
-:----: | :----:
-|[<img src="https://ansible.com/hubfs/Images/Red-Hat-Ansible_OG_1200x630.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
+|:----: | :----:|
+|[<img src="images/ansible.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
 
 ## What is it?
@@ -31,7 +31,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 
 |CIS| DISA-STIG |
 |:--|:--:|
-|[<img src="https://opscompass.com/wp-content/uploads/center-for-internet-security-logo.png" width="200" height="75" alt="CIS" />](https://www.cisecurity.org)|[<img src="https://www.eiutah.com/wp-content/uploads/2015/10/DISA-1024x1024.png" width="100" height="100" alt="Disa STIG" />](https://public.cyber.mil/stigs/)|
+|[<img src="https://opscompass.com/wp-content/uploads/center-for-internet-security-logo.png" width="200" height="75" alt="CIS" />](https://www.cisecurity.org)|[<img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_1440,h_528/https://assets.ubuntu.com/v1/ef01809f-DISA-logo-transparent.png" width="100" height="100" alt="Disa STIG" />](https://public.cyber.mil/stigs/)|
 |[CIS Repos](#cis)|[STIG Repos](#stig)|
 
 ---
@@ -81,13 +81,14 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Amazon2|[Amazon2-CIS]|[Amazon2-CIS-Audit]|
 |Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
 |DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-Audit]|
-|DEBIAN12|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
+|DEBIAN12|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
 |RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
 |UBUNTU18|[UBUNTU18-CIS]|[UBUNTU18-CIS-Audit]|
 |UBUNTU20|[UBUNTU20-CIS]|[UBUNTU20-CIS-Audit]|
 |UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
+|UBUNTU24|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
 
 #### CIS-Windows
 
@@ -232,6 +233,8 @@ CIS Repo links
 [UBUNTU20-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU20-CIS-Audit
 [UBUNTU22-CIS]: https://github.com/ansible-lockdown/UBUNTU22-CIS
 [UBUNTU22-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU22-CIS-Audit
+[UBUNTU24-CIS]: https://github.com/ansible-lockdown/UBUNTU24-CIS
+[UBUNTU24-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU24-CIS-Audit
 
 [Windows-10-CIS]: https://github.com/ansible-lockdown/Windows-10-CIS
 [Windows-10-CIS-Audit]: https://github.com/ansible-lockdown/Windows-10-CIS-Audit
