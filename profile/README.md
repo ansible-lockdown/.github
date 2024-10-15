@@ -148,6 +148,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |RHEL9|[RHEL9-STIG]|[RHEL9-STIG-Audit]|
 |UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
 |UBUNTU20|[UBUNTU20-STIG]|![Static Badge][Coming Soon]|
+|UBUNTU22|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
 
 #### STIG-Windows
 
@@ -270,6 +271,8 @@ STIG Repo links
 [UBUNTU18-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU18-STIG-Audit
 [UBUNTU20-STIG]: https://github.com/ansible-lockdown/UBUNTU20-STIG
 [UBUNTU20-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU20-STIG-Audit
+[UBUNTU22-STIG]: https://github.com/ansible-lockdown/UBUNTU22-STIG
+[UBUNTU22-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU22-STIG-Audit
 
 [Windows-10-STIG]: https://github.com/ansible-lockdown/Windows-10-STIG
 [Windows-2016-STIG]: https://github.com/ansible-lockdown/Windows-2016-STIG
