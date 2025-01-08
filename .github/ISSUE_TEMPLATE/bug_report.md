@@ -6,6 +6,7 @@ labels: bug
 assignees: ''
 
 ---
+**Have you checked [ReadtheDocs](https://ansible-lockdown.readthedocs.io/en/latest/)?:**
 
 **Describe the Issue**
 A clear and concise description of what the bug is.

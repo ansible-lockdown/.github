@@ -81,14 +81,15 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Amazon2|[Amazon2-CIS]|[Amazon2-CIS-Audit]|
 |Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
 |DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-Audit]|
-|DEBIAN12|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
+|DEBIAN12|[DEBIAN12-CIS]|[DEBIAN12-CIS-Audit]|
 |RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
+|SUSE15|![Static Badge][In Development]|![Static Badge][In Development]|
 |UBUNTU18|[UBUNTU18-CIS]|[UBUNTU18-CIS-Audit]|
 |UBUNTU20|[UBUNTU20-CIS]|[UBUNTU20-CIS-Audit]|
 |UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
-|UBUNTU24|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
+|UBUNTU24|[UBUNTU24-CIS]|[UBUNTU24-CIS-Audit]|
 
 #### CIS-Windows
 
@@ -148,6 +149,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |RHEL9|[RHEL9-STIG]|[RHEL9-STIG-Audit]|
 |UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
 |UBUNTU20|[UBUNTU20-STIG]|![Static Badge][Coming Soon]|
+|UBUNTU22|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
 
 #### STIG-Windows
 
@@ -227,6 +229,8 @@ CIS Repo links
 [RHEL8-CIS-Audit]: https://github.com/ansible-lockdown/RHEL8-CIS-Audit
 [RHEL9-CIS]: https://github.com/ansible-lockdown/RHEL9-CIS
 [RHEL9-CIS-Audit]: https://github.com/ansible-lockdown/RHEL9-CIS-Audit
+[SUSE15-CIS]: https://github.com/ansible-lockdown/SUSE15-CIS
+[SUSE15-CIS-Audit]: https://github.com/ansible-lockdown/SUSE15-CIS-Audit
 [UBUNTU18-CIS]: https://github.com/ansible-lockdown/UBUNTU18-CIS
 [UBUNTU18-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU18-CIS-Audit
 [UBUNTU20-CIS]: https://github.com/ansible-lockdown/UBUNTU20-CIS
@@ -270,6 +274,8 @@ STIG Repo links
 [UBUNTU18-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU18-STIG-Audit
 [UBUNTU20-STIG]: https://github.com/ansible-lockdown/UBUNTU20-STIG
 [UBUNTU20-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU20-STIG-Audit
+[UBUNTU22-STIG]: https://github.com/ansible-lockdown/UBUNTU22-STIG
+[UBUNTU22-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU22-STIG-Audit
 
 [Windows-10-STIG]: https://github.com/ansible-lockdown/Windows-10-STIG
 [Windows-2016-STIG]: https://github.com/ansible-lockdown/Windows-2016-STIG
