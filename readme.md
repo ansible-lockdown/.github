@@ -82,7 +82,6 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
 |DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-Audit]|
 |DEBIAN12|[DEBIAN12-CIS]|[DEBIAN12-CIS-Audit]|
-|RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
 |RHEL10|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
@@ -103,6 +102,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Windows-2016|[Windows-2016-CIS]|[Windows-2016-CIS-Audit]|
 |Windows-2019|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
 |Windows-2022|[Windows-2022-CIS]|![Static Badge][Coming Soon]|
+|Windows-2025|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
 
 #### CIS-Platform
 
@@ -123,6 +123,14 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Apache-2.4|[Apache-2.4-CIS]|N/A|
 |Postgres-12|[Postgres-12-CIS]|N/A|
 |Kubernetes1.6.1|[Kubernetes1.6.1-CIS]|N/A|
+
+### CIS-Archived
+
+---
+
+|OS|
+|--|
+|[RHEL7-CIS]|
 
 ---
 
@@ -145,7 +153,6 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
-|RHEL7|[RHEL7-STIG]|[RHEL7-STIG-Audit]|
 |RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
 |RHEL9|[RHEL9-STIG]|[RHEL9-STIG-Audit]|
 |UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
@@ -163,6 +170,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Windows-2016|[Windows-2016-STIG]|N/A|
 |Windows-2019|[Windows-2019-STIG]|N/A|
 |Windows-2022|[Windows-2022-STIG]|N/A|
+|Windows-2025|![Static Badge][Coming Soon]|N/A|
 
 #### STIG-Applications
 
@@ -183,6 +191,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |--|
 |[RHEL5-STIG]|
 |[RHEL6-STIG]|
+|[RHEL7-STIG]|
 |[Windows-2008R2-Member-Server-STIG]|
 |[Windows-2012-Member-Server-STIG]|
 |[Windows-2012-Domain-Controller-STIG]|
@@ -254,6 +263,8 @@ CIS Repo links
 [Windows-2019-CIS-Audit]: https://github.com/ansible-lockdown/Windows-2019-CIS-Audit
 [Windows-2022-CIS]: https://github.com/ansible-lockdown/Windows-2022-CIS
 [Windows-2022-CIS-Audit]: https://github.com/ansible-lockdown/Windows-2022-CIS-Audit
+[Windows-2025-CIS]: https://github.com/ansible-lockdown/Windows-2025-CIS
+[Windows-2025-CIS-Audit]: https://github.com/ansible-lockdown/Windows-2025-CIS-Audit
 
 [Cisco-IOS-L2S]: https://github.com/ansible-lockdown/CISCO-IOS-L2S-STIG
 [AWS-Foundations]: https://github.com/ansible-lockdown/AWS-FOUNDATIONS-CIS
@@ -286,6 +297,7 @@ STIG Repo links
 [Windows-2016-STIG]: https://github.com/ansible-lockdown/Windows-2016-STIG
 [Windows-2019-STIG]: https://github.com/ansible-lockdown/Windows-2019-STIG
 [Windows-2022-STIG]: https://github.com/ansible-lockdown/Windows-2022-STIG
+[Windows-2025-STIG]: https://github.com/ansible-lockdown/Windows-2025-STIG
 
 [Apache-2.4-STIG]: https://github.com/ansible-lockdown/APACHE-2.4-STIG
 [Postgres-9-STIG]: https://github.com/ansible-lockdown/POSTGRES-9-STIG
