@@ -11,7 +11,7 @@
 ## Based upon the following products
 
 | Remediation Roles | Audit Profiles |
-|:----: | :----:|
+| :----: | :----: |
 |[<img src="images/ansible.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
 
@@ -85,7 +85,8 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |RHEL7|[RHEL7-CIS]|[RHEL7-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
-|SUSE15|![Static Badge][In Development]|![Static Badge][In Development]|
+|RHEL10|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
+|SUSE15|[SUSE15-CIS]|[SUSE15-CIS-Audit]|
 |UBUNTU18|[UBUNTU18-CIS]|[UBUNTU18-CIS-Audit]|
 |UBUNTU20|[UBUNTU20-CIS]|[UBUNTU20-CIS-Audit]|
 |UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
@@ -149,7 +150,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |RHEL9|[RHEL9-STIG]|[RHEL9-STIG-Audit]|
 |UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
 |UBUNTU20|[UBUNTU20-STIG]|![Static Badge][Coming Soon]|
-|UBUNTU22|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
+|UBUNTU22|[UBUNTU22-STIG]|[UBUNTU22-STIG-Audit]|
 
 #### STIG-Windows
 
@@ -158,6 +159,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |OS|Remediate|Audit|
 |--|--|--|
 |Windows-10|[Windows-10-STIG]|N/A|
+|Windows-11|[Windows-11-STIG]|N/A|
 |Windows-2016|[Windows-2016-STIG]|N/A|
 |Windows-2019|[Windows-2019-STIG]|N/A|
 |Windows-2022|[Windows-2022-STIG]|N/A|
@@ -229,6 +231,8 @@ CIS Repo links
 [RHEL8-CIS-Audit]: https://github.com/ansible-lockdown/RHEL8-CIS-Audit
 [RHEL9-CIS]: https://github.com/ansible-lockdown/RHEL9-CIS
 [RHEL9-CIS-Audit]: https://github.com/ansible-lockdown/RHEL9-CIS-Audit
+[RHEL10-CIS]: https://github.com/ansible-lockdown/RHEL10-CIS
+[RHEL10-CIS-Audit]: https://github.com/ansible-lockdown/RHEL10-CIS-Audit
 [SUSE15-CIS]: https://github.com/ansible-lockdown/SUSE15-CIS
 [SUSE15-CIS-Audit]: https://github.com/ansible-lockdown/SUSE15-CIS-Audit
 [UBUNTU18-CIS]: https://github.com/ansible-lockdown/UBUNTU18-CIS
@@ -278,6 +282,7 @@ STIG Repo links
 [UBUNTU22-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU22-STIG-Audit
 
 [Windows-10-STIG]: https://github.com/ansible-lockdown/Windows-10-STIG
+[Windows-11-STIG]: https://github.com/ansible-lockdown/Windows-11-STIG
 [Windows-2016-STIG]: https://github.com/ansible-lockdown/Windows-2016-STIG
 [Windows-2019-STIG]: https://github.com/ansible-lockdown/Windows-2019-STIG
 [Windows-2022-STIG]: https://github.com/ansible-lockdown/Windows-2022-STIG
