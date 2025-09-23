@@ -4,9 +4,10 @@
 ![Lockdown_followers](https://img.shields.io/github/followers/ansible-lockdown?style=social)
 ![Discord_active](https://img.shields.io/discord/925818806838919229?logo=discord)
 
-|<div style="width:400px"></div>Part of the [Lockdown Suite] by|
+| <div style="width:400px; margin-bottom:0; padding-bottom:0;">Part of the [Lockdown Suite] by</div> |
 | :---: |
-|<a href="https://mindpointgroup.com#GH_LockdownReadMe" target="_blank"><img src="https://raw.githubusercontent.com/ansible-lockdown/.github/logo/images/Tyto-Athene-Logo-Full-Color.png" width="200" height="200" alt="Tyto Athene"/></a>|
+| <a href="https://mindpointgroup.com#GH_LockdownReadMe" target="_blank"><img src="https://raw.githubusercontent.com/ansible-lockdown/.github/logo/images/Tyto-Athene-Logo-Full-Color.png" width="200" height="200" alt="Tyto Athene" style="margin-top:-5px;"/></a> |
+
 
 ## Based upon the following products
 
