@@ -6,7 +6,7 @@
 
 |<div style="width:400px"></div>Part of the [Lockdown Suite] by|
 | :---: |
-|<a href="https://mindpointgroup.com#GH_LockdownReadMe" target="_blank"><img src="https://assets-global.website-files.com/601959b76833363126385b0d/60195aa15ed9274f67255f9b_MPG-logo-mono-blue.svg" width="200" height="75" alt="MindPoint Group"/></a>|
+|<a href="https://mindpointgroup.com#GH_LockdownReadMe" target="_blank"><img src="https://github.com/ansible-lockdown/.github/tree/logo/images/Tyto-Athene-Logo-Full-Color.png" width="200" height="75" alt="MindPoint Group"/></a>|
 
 ## Based upon the following products
 
