@@ -1,39 +1,131 @@
-# Welcome to Ansible Lockdown
+<div align="center">
 
-![Org Stars](https://img.shields.io/github/stars/ansible-lockdown?label=Org%20Stars&style=social)
-![Lockdown_followers](https://img.shields.io/github/followers/ansible-lockdown?style=social)
-![Discord_active](https://img.shields.io/discord/925818806838919229?logo=discord)
+<a href="https://lockdownenterprise.com#GH_LockdownReadMe"><img src="https://raw.githubusercontent.com/ansible-lockdown/.github/logo/images/Tyto-Athene-Logo-Full-Color.png" alt="Tyto Athene" width="250" height="100"></a>
+# Ansible Lockdown
 
-| <div style="width:400px; margin-bottom:0; padding-bottom:0;">Part of the [Lockdown Suite] by</div> |
-| :---: |
-| <a href="https://mindpointgroup.com#GH_LockdownReadMe" target="_blank"><img src="https://raw.githubusercontent.com/ansible-lockdown/.github/logo/images/Tyto-Athene-Logo-Full-Color.png" width="200" height="200" alt="Tyto Athene" style="margin-top:-5px;"/></a> |
+[![Org Stars](https://img.shields.io/github/stars/ansible-lockdown?label=Org%20Stars&style=social)](https://github.com/ansible-lockdown)
+[![Followers](https://img.shields.io/github/followers/ansible-lockdown?style=social)](https://github.com/ansible-lockdown)
+[![Discord](https://img.shields.io/discord/925818806838919229?logo=discord)](https://www.lockdownenterprise.com/discord)
 
+**Baseline hardening at scale** — remediation roles (Ansible) + audit profiles (Goss), mapped to CIS & DISA STIG.
 
-## Based upon the following products
+</div>
 
-| Remediation Roles | Audit Profiles |
-| :----: | :----: |
-|[<img src="images/ansible.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
-|<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
+---
 
-## What is it?
+## What is Ansible Lockdown?
+Ansible Lockdown is an **open-source security automation framework** purpose-built for baseline hardening.  
+It codifies industry benchmarks like **CIS** and **DISA STIG** into two complementary components:  
 
-Based upon industry recognized benchmarks and best practices, using leading products to enable highly adjustable configurations to bring your systems/platforms into security compliance.
+- **Remediation Roles (Ansible)**  
+  Apply hardening controls directly to Linux, Windows, network appliances, and applications.  
+  Every control is implemented as **idempotent code**, making remediation repeatable, and version-controlled.  
 
-- Open Source (MIT licensed)
-  - Community supported as standard
-  - Enterprise support available
-- Configuration-as-code
-  - Assist in bringing your systems/platform into compliance through the use of [Ansible]
-  - Audit your current system/platform using [Goss]
-- Highly configurable to work with your systems
+- **Audit Profiles (Goss)**  
+  Lightweight compliance checks that run at machine speed.  
+  Validate drift, prove compliance for audits, and integrate directly with CI/CD pipelines.  
 
-## Content
+The result: a **configuration-as-code foundation for security baselines** that plugs into existing DevOps workflows and scales across heterogeneous environments.
 
-|CIS| DISA-STIG |
-|:--|:--:|
-|[<img src="https://opscompass.com/wp-content/uploads/center-for-internet-security-logo.png" width="200" height="75" alt="CIS" />](https://www.cisecurity.org)|[<img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_1440,h_528/https://assets.ubuntu.com/v1/ef01809f-DISA-logo-transparent.png" width="100" height="100" alt="Disa STIG" />](https://public.cyber.mil/stigs/)|
-|[CIS Repos](#cis)|[STIG Repos](#stig)|
+---
+
+## Why you need Ansible Lockdown
+Security and compliance challenges scale with your infrastructure. Manual hardening and one-off scripts can’t keep up.  
+Ansible Lockdown gives you a **battle-tested, automated, and auditable approach** that solves for both operational efficiency and regulatory requirements.
+
+### Business Value
+- **Cut costs**: Reduce time spent on manual compliance by 70–80%.  
+- **Accelerate audits**: Pre-mapped controls to CIS and STIG benchmarks simplify evidence collection.  
+- **De-risk operations**: Reduce misconfiguration risk and insider error across thousands of endpoints.  
+- **Enterprise-ready**: Community-driven, open-source under MIT license, with optional **commercial support**.  
+
+### Technical Advantages
+- **Multi-platform coverage**: Linux distros (RHEL, Ubuntu, Debian, etc.), Windows Server/Workstation, apps, and cloud.  
+- **Infrastructure-as-Code ready**: Run inside Ansible Tower/AWX, GitHub Actions, GitLab, Jenkins, Terraform, or any CI/CD stack.  
+- **Full lifecycle**: Apply → Audit → Monitor drift → Re-apply.  
+- **Highly tunable**: Variables and tags let you enable/disable controls granularly, so you only enforce what fits your environment.  
+- **Pre-deployment security**: Integrate compliance scans into image pipelines (Packer, Docker, VM templates) before workloads even deploy.  
+
+---
+
+## Why Ansible Lockdown?
+- **Open source (MIT)** with an active community; **enterprise support** available.  
+- **Configuration-as-code:** remediate with [Ansible], audit with [GOSS].  
+- Built for **heterogeneous fleets** — Linux, Windows, platforms, and applications.  
+- Proven in production by enterprises, federal agencies, and critical infrastructure providers.  
+
+> Looking for a specific OS or benchmark? Jump to the **[Repo Matrix](#repo-matrix)**.
+
+---
+
+## What’s inside
+- **Remediation Roles** — Ansible roles that implement benchmark controls.  
+- **Audit Profiles** — Goss profiles that verify configured state.  
+- **Benchmarks** — CIS and DISA STIG coverage across OS, platforms, and apps.  
+- **Archived** — prior versions maintained for reference.
+
+---
+
+## Feature Comparison
+
+| Capability              | Ansible Lockdown                         | Manual Scripts / Ad-hoc   | Commercial Tools       |
+|--------------------------|-------------------------------------------|---------------------------|------------------------|
+| **Open Source (MIT)**    | ✅ Yes                                    | ❌ No                     | ❌ No                  |
+| **Mapped to CIS & STIG** | ✅ Direct mappings included               | ❌ Manual mapping needed   | ⚠️ Partial (varies)    |
+| **Remediation (Ansible)**| ✅ Idempotent roles at scale              | ⚠️ Inconsistent            | ✅ Often included       |
+| **Audit (Goss)**         | ✅ Lightweight, fast, CI-friendly         | ❌ No standard method      | ⚠️ Varies              |
+| **Multi-Platform**       | ✅ Linux, Windows, Apps, Cloud            | ❌ OS-specific hacks       | ⚠️ Limited support     |
+| **Customizable**         | ✅ Variables, tags, modular controls      | ❌ Hardcoded               | ⚠️ Vendor limits       |
+| **Cost**                 | ✅ Free (Enterprise support optional)     | ✅ Free but costly in time | 💲 High license fee    |
+
+---
+
+## Real-World Use Cases
+- **CIS/STIG compliance at scale** for regulated industries (Federal, Finance, Healthcare).  
+- **Golden image pipelines** (Packer, Docker, Azure, AWS AMIs) pre-hardened before deployment.  
+- **CI/CD enforcement**: Break builds or flag drift automatically.  
+- **Hybrid IT environments**: Consistent baselines across Windows & Linux fleets.  
+- **Audit-ready evidence**: Reports mapped to benchmark control IDs.  
+
+---
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+
+## Repo Matrix
+
+| OS                  | Remediation Repo Link                      | Main CIS Release Badge                                                                                       | Devel CIS Release Badge                                                                                      |
+|----------------------|--------------------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Windows Server 2022** | [Windows-2022-CIS](https://github.com/ansible-lockdown/Windows-2022-CIS) | ![Main Release](https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/self_hosted/badges/Windows-2022-CIS/benchmark-version-main.json) | ![Devel Release](https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/self_hosted/badges/Windows-2022-CIS/benchmark-version-devel.json) |
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 ---
 
