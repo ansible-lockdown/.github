@@ -9,13 +9,73 @@
 
 **Baseline hardening at scale** — remediation roles (Ansible) + audit profiles (Goss), mapped to CIS & DISA STIG.
 
+---
+
+## 💡 Looking for Support?
+
+[![Enterprise Support](https://img.shields.io/badge/Enterprise_Support-LockdownEnterprise.com-1E90FF?style=flat-square&logo=google-chrome&logoColor=white)](https://lockdownenterprise.com)
+[![Docs](https://img.shields.io/badge/Docs-ReadTheDocs-1E90FF?style=flat-square&logo=readthedocs&logoColor=white)](https://ansible-lockdown.readthedocs.io/en/latest/)
+[![Discord](https://img.shields.io/discord/925818806838919229?style=flat-square&logo=discord&logoColor=white&label=Community%20Chat)](https://www.lockdownenterprise.com/discord)
+
+
+
+## 🔗 Useful Links
+
+**Ansible Lockdown**
+
+[![Galaxy](https://img.shields.io/badge/Ansible-Galaxy-EE0000?style=flat-square&logo=ansible)](https://galaxy.ansible.com/MindPointGroup)
+[![YouTube](https://img.shields.io/badge/Videos-YouTube-FF0000?style=flat-square&logo=youtube)](https://www.youtube.com/watch?v=8aCSHD_pYbY&list=PLKpw0im6um14iqGuIS896rUWMOycdDYrv)
+[![GitHub](https://img.shields.io/badge/Full%20Repo%20List-GitHub-181717?style=flat-square&logo=github)](https://github.com/orgs/ansible-lockdown/repositories)
+[![G2](https://img.shields.io/badge/Reviews-G2-FF6B00?style=flat-square&logo=g2)](https://www.g2.com/products/ansible-lockdown/reviews)
+[![Twitter](https://img.shields.io/twitter/follow/AnsibleLockdown?style=social)](https://twitter.com/AnsibleLockdown)
+
+---
+
+## 🤝 Company & Partners
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+<strong>Tyto Athene</strong><br>
+
+<a href="https://tytoathene.com">
+  <img src="https://img.shields.io/badge/Website-Tyto_Athene-1E90FF?style=flat-square&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/company/tyto-athene/">
+  <img src="https://img.shields.io/badge/LinkedIn-Tyto_Athene-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://twitter.com/TytoAthene">
+  <img src="https://img.shields.io/twitter/follow/TytoAthene?style=social" />
+</a>
+<a href="https://www.facebook.com/TytoAthene">
+  <img src="https://img.shields.io/badge/Facebook-Tyto_Athene-1877F2?style=flat-square&logo=facebook&logoColor=white" />
+</a>
+
+</td>
+<td align="center" width="50%">
+
+<strong>MindPoint Group</strong><br>
+
+<a href="https://www.mindpointgroup.com">
+  <img src="https://img.shields.io/badge/Website-MindPoint_Group-1E90FF?style=flat-square&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/company/mindpoint-group-llc">
+  <img src="https://img.shields.io/badge/LinkedIn-MindPoint_Group-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://twitter.com/MindPointGroup">
+  <img src="https://img.shields.io/twitter/follow/MindPointGroup?style=social" />
+</a>
+
+</td>
+</tr>
+</table>
 </div>
 
 ---
 
 ## What is Ansible Lockdown?
-Ansible Lockdown is an **open-source security automation framework** purpose-built for baseline hardening.
-It codifies industry benchmarks like **CIS** and **DISA STIG** into two complementary components:
+Ansible Lockdown (Lockdown Compliance within Lockdown Suite) is an **open-source security automation framework** purpose-built for compliance hardening. It codifies industry benchmarks like **CIS** and **DISA STIG** for both remediation and auditing.
 
 - **Remediation Roles (Ansible)**
   Apply hardening controls directly to Linux, Windows, network appliances, and applications.
@@ -23,7 +83,7 @@ It codifies industry benchmarks like **CIS** and **DISA STIG** into two compleme
 
 - **Audit Profiles (Goss)**
   Lightweight compliance checks that run at machine speed.
-  Validate drift, prove compliance for audits, and integrate directly with CI/CD pipelines.
+  Validates compliance state, exports compliance state in multiple formats, and integrates easily directly into CI/CD pipelines.
 
 The result: a **configuration-as-code foundation for security baselines** that plugs into existing DevOps workflows and scales across heterogeneous environments.
 
@@ -54,7 +114,7 @@ Ansible Lockdown gives you a **battle-tested, automated, and auditable approach*
 - Built for **heterogeneous fleets** — Linux, Windows, platforms, and applications.
 - Proven in production by enterprises, federal agencies, and critical infrastructure providers.
 
-> Looking for a specific OS or benchmark? Jump to the **[Repo Matrix](#repo-matrix)**.
+> Looking for a specific OS or benchmark? Jump to the **Supported Benchmarks**.
 
 ---
 
@@ -88,7 +148,7 @@ Ansible Lockdown gives you a **battle-tested, automated, and auditable approach*
 - **Audit-ready evidence**: Reports mapped to benchmark control IDs.
 
 ---
-### Supported Benchmarks
+## Supported Benchmarks
 
 All remediation and audit content is maintained in dedicated repositories.
 Each benchmark is presented below with:
