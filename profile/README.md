@@ -82,12 +82,11 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
 |DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-Audit]|
 |DEBIAN12|[DEBIAN12-CIS]|[DEBIAN12-CIS-Audit]|
+|DEBIAN13|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
 |RHEL10|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
 |SUSE15|[SUSE15-CIS]|[SUSE15-CIS-Audit]|
-|UBUNTU18|[UBUNTU18-CIS]|[UBUNTU18-CIS-Audit]|
-|UBUNTU20|[UBUNTU20-CIS]|[UBUNTU20-CIS-Audit]|
 |UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
 |UBUNTU24|[UBUNTU24-CIS]|[UBUNTU24-CIS-Audit]|
 
@@ -131,6 +130,8 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |OS|
 |--|
 |[RHEL7-CIS]|
+|[UBUNTU18-CIS]|
+|[UBUNTU20-CIS]|
 
 ---
 
@@ -155,8 +156,6 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |--|--|--|
 |RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
 |RHEL9|[RHEL9-STIG]|[RHEL9-STIG-Audit]|
-|UBUNTU18|[UBUNTU18-STIG]|[UBUNTU18-STIG-Audit]|
-|UBUNTU20|[UBUNTU20-STIG]|N/A|
 |UBUNTU22|[UBUNTU22-STIG]|[UBUNTU22-STIG-Audit]|
 |UBUNTU24|[UBUNTU24-STIG]|[UBUNTU24-STIG-Audit]|
 
@@ -193,6 +192,8 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |[RHEL5-STIG]|
 |[RHEL6-STIG]|
 |[RHEL7-STIG]|
+|[UBUNTU18-STIG]|
+|[UBUNTU20-STIG]|
 |[Windows-2008R2-Member-Server-STIG]|
 |[Windows-2012-Member-Server-STIG]|
 |[Windows-2012-Domain-Controller-STIG]|
@@ -235,6 +236,8 @@ CIS Repo links
 [DEBIAN11-CIS-Audit]: https://github.com/ansible-lockdown/DEBIAN11-CIS-Audit
 [DEBIAN12-CIS]: https://github.com/ansible-lockdown/DEBIAN12-CIS
 [DEBIAN12-CIS-Audit]: https://github.com/ansible-lockdown/DEBIAN12-CIS-Audit
+[DEBIAN13-CIS]: https://github.com/ansible-lockdown/DEBIAN13-CIS
+[DEBIAN13-CIS-Audit]: https://github.com/ansible-lockdown/DEBIAN13-CIS-Audit
 [RHEL7-CIS]: https://github.com/ansible-lockdown/RHEL7-CIS
 [RHEL7-CIS-Audit]: https://github.com/ansible-lockdown/RHEL7-CIS-Audit
 [RHEL8-CIS]: https://github.com/ansible-lockdown/RHEL8-CIS
