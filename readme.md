@@ -154,6 +154,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
+|AMAZON2023|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
 |RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
 |RHEL9|[RHEL9-STIG]|[RHEL9-STIG-Audit]|
 |UBUNTU22|[UBUNTU22-STIG]|[UBUNTU22-STIG-Audit]|
@@ -282,7 +283,8 @@ CIS Repo links
 <!---
 STIG Repo links
 --->
-
+[AMAZON2023-STIG]: https://github.com/ansible-lockdown/AMAZON2023-STIG
+[AMAZON2023-STIG-Audit]: https://github.com/ansible-lockdown/AMAZON2023-STIG-Audit
 [RHEL7-STIG]: https://github.com/ansible-lockdown/RHEL7-STIG
 [RHEL8-STIG]: https://github.com/ansible-lockdown/RHEL8-STIG
 [RHEL8-STIG-Audit]: https://github.com/ansible-lockdown/RHEL8-STIG-Audit
