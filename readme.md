@@ -2001,3 +2001,94 @@ Expand a section below to view available baselines by **OS, platform, or applica
 </div>
 </details>
 </details>
+
+
+
+
+---
+
+## 🐧 Linux
+
+### Red Hat Enterprise Linux
+
+<details>
+<summary><b>RHEL 10</b></summary>
+
+| Baseline | Private Repo | Audit |
+|----------|--------------|-------|
+| [RHEL10-CIS](link) | [Private-RHEL10-CIS](link) | [RHEL10-CIS-Audit](link) |
+| [RHEL10-STIG](link) | [Private-RHEL10-STIG](link) | [RHEL10-STIG-Audit](link) |
+
+</details>
+
+<details>
+<summary><b>RHEL 9</b></summary>
+
+| Baseline | Private Repo | Audit |
+|----------|--------------|-------|
+| [RHEL9-CIS](link) | [Private-RHEL9-CIS](link) | [RHEL9-CIS-Audit](link) |
+| [RHEL9-STIG](link) | [Private-RHEL9-STIG](link) | [RHEL9-STIG-Audit](link) |
+
+</details>
+
+<details>
+<summary><b>RHEL 8</b></summary>
+
+| Baseline | Private Repo | Audit |
+|----------|--------------|-------|
+| [RHEL8-CIS](link) | [Private-RHEL8-CIS](link) | [RHEL8-CIS-Audit](link) |
+| [RHEL8-STIG](link) | [Private-RHEL8-STIG](link) | [RHEL8-STIG-Audit](link) |
+
+</details>
+
+<details>
+<summary><b>RHEL 7</b></summary>
+
+| Baseline | Private Repo | Audit |
+|----------|--------------|-------|
+| [RHEL7-CIS](link) | [Private-RHEL7-CIS](link) | [RHEL7-CIS-Audit](link) |
+| [RHEL7-STIG](link) | [Private-RHEL7-STIG](link) | [RHEL7-STIG-Audit](link) |
+
+</details>
+
+<details>
+<summary><b>RHEL 6</b></summary>
+
+| Baseline | Private Repo | Audit |
+|----------|--------------|-------|
+| [RHEL6-CIS](link) | [Private-RHEL6-CIS](link) | [RHEL6-CIS-Audit](link) |
+| [RHEL6-STIG](link) | [Private-RHEL6-STIG](link) | [RHEL6-STIG-Audit](link) |
+
+</details>
+
+<details>
+<summary><b>RHEL 5</b></summary>
+
+| Baseline | Private Repo | Audit |
+|----------|--------------|-------|
+| [RHEL5-CIS](link) | [Private-RHEL5-CIS](link) | [RHEL5-CIS-Audit](link) |
+| [RHEL5-STIG](link) | [Private-RHEL5-STIG](link) | [RHEL5-STIG-Audit](link) |
+
+</details>
+
+### Ubuntu Linux
+
+<details>
+<summary><b>Ubuntu 24</b></summary>
+
+| Baseline | Private Repo | Audit |
+|----------|--------------|-------|
+| [UBUNTU24-CIS](link) | [Private-UBUNTU24-CIS](link) | [UBUNTU24-CIS-Audit](link) |
+| [UBUNTU24-STIG](link) | [Private-UBUNTU24-STIG](link) | [UBUNTU24-STIG-Audit](link) |
+
+</details>
+
+<details>
+<summary><b>Ubuntu 22</b></summary>
+
+| Baseline | Private Repo | Audit |
+|----------|--------------|-------|
+| [UBUNTU22-CIS](link) | [Private-UBUNTU22-CIS](link) | [UBUNTU22-CIS-Audit](link) |
+| [UBUNTU22-STIG](link) | [Private-UBUNTU22-STIG](link) | [UBUNTU22-STIG-Audit](link) |
+
+</details>
