@@ -2005,6 +2005,11 @@ Expand a section below to view available baselines by **OS, platform, or applica
 
 
 
+
+
+
+
+
 ---
 
 ## 🐧 Linux
@@ -2014,81 +2019,130 @@ Expand a section below to view available baselines by **OS, platform, or applica
 <details>
 <summary><b>RHEL 10</b></summary>
 
-| Baseline | Private Repo | Audit |
-|----------|--------------|-------|
-| [RHEL10-CIS](link) | [Private-RHEL10-CIS](link) | [RHEL10-CIS-Audit](link) |
-| [RHEL10-STIG](link) | [Private-RHEL10-STIG](link) | [RHEL10-STIG-Audit](link) |
+<table>
+  <!-- **********************************  CIS LINKS  ********************************** -->
+  <tr>
+    <td><a href="https://github.com/ansible-lockdown/RHEL10-CIS">RHEL10-CIS</a></td>
+    <td><a href="https://github.com/ansible-lockdown/github_windows_IaC/tree/self_hosted/badges/Private-RHEL10-CIS">Private-RHEL10-CIS</a></td>
+    <td><a href="https://github.com/ansible-lockdown/RHEL10-CIS-Audit">RHEL10-CIS-Audit</a></td>
+  </tr>
+  <!-- **********************************  CIS BADGES  ********************************* -->
+  <tr>
+    <td>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL10-CIS/benchmark-version-main.json&style=flat-square" height="20"><br>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL10-CIS/benchmark-version-devel.json&style=flat-square" height="20"><br>
+      <a href="https://github.com/ansible-lockdown/RHEL10-CIS/releases/latest">
+        <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL10-CIS/lockdown-release.json&style=flat-square" height="20">
+      </a>
+    </td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/Private-RHEL10-CIS/benchmark-version.json&style=flat-square" height="20"></td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/audit/RHEL10-CIS-Audit-Badge.json&style=flat-square" height="20"></td>
+  </tr>
+
+  <!-- **********************************  STIG LINKS  ********************************* -->
+  <tr>
+    <td><a href="https://github.com/ansible-lockdown/RHEL10-STIG">RHEL10-STIG</a></td>
+    <td><a href="https://github.com/ansible-lockdown/github_windows_IaC/tree/self_hosted/badges/Private-RHEL10-STIG">Private-RHEL10-STIG</a></td>
+    <td><a href="https://github.com/ansible-lockdown/RHEL10-STIG-Audit">RHEL10-STIG-Audit</a></td>
+  </tr>
+  <!-- **********************************  STIG BADGES  ******************************** -->
+  <tr>
+    <td>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL10-STIG/benchmark-version-main.json&style=flat-square" height="20"><br>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL10-STIG/benchmark-version-devel.json&style=flat-square" height="20"><br>
+      <a href="https://github.com/ansible-lockdown/RHEL10-STIG/releases/latest">
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL10-STIG/lockdown-release.json&style=flat-square" height="20">
+      </a>
+    </td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/Private-RHEL10-STIG/benchmark-version.json&style=flat-square" height="20"></td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/audit/RHEL10-STIG-Audit-Badge.json&style=flat-square" height="20"></td>
+  </tr>
+</table>
 
 </details>
 
 <details>
 <summary><b>RHEL 9</b></summary>
 
-| Baseline | Private Repo | Audit |
-|----------|--------------|-------|
-| [RHEL9-CIS](link) | [Private-RHEL9-CIS](link) | [RHEL9-CIS-Audit](link) |
-| [RHEL9-STIG](link) | [Private-RHEL9-STIG](link) | [RHEL9-STIG-Audit](link) |
+<table>
+  <!-- **********************************  CIS LINKS  ********************************** -->
+  <tr>
+    <td><a href="https://github.com/ansible-lockdown/RHEL9-CIS">RHEL9-CIS</a></td>
+    <td><a href="https://github.com/ansible-lockdown/github_windows_IaC/tree/self_hosted/badges/Private-RHEL9-CIS">Private-RHEL9-CIS</a></td>
+    <td><a href="https://github.com/ansible-lockdown/RHEL9-CIS-Audit">RHEL9-CIS-Audit</a></td>
+  </tr>
+  <!-- **********************************  CIS BADGES  ********************************* -->
+  <tr>
+    <td>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL9-CIS/benchmark-version-main.json&style=flat-square" height="20"><br>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL9-CIS/benchmark-version-devel.json&style=flat-square" height="20"><br>
+      <a href="https://github.com/ansible-lockdown/RHEL9-CIS/releases/latest">
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL9-CIS/lockdown-release.json&style=flat-square" height="20">
+      </a>
+    </td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/Private-RHEL9-CIS/benchmark-version.json&style=flat-square" height="20"></td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/audit/RHEL9-CIS-Audit-Badge.json&style=flat-square" height="20"></td>
+  </tr>
+
+  <!-- **********************************  STIG LINKS  ********************************* -->
+  <tr>
+    <td><a href="https://github.com/ansible-lockdown/RHEL9-STIG">RHEL9-STIG</a></td>
+    <td><a href="https://github.com/ansible-lockdown/github_windows_IaC/tree/self_hosted/badges/Private-RHEL9-STIG">Private-RHEL9-STIG</a></td>
+    <td><a href="https://github.com/ansible-lockdown/RHEL9-STIG-Audit">RHEL9-STIG-Audit</a></td>
+  </tr>
+  <!-- **********************************  STIG BADGES  ******************************** -->
+  <tr>
+    <td>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL9-STIG/benchmark-version-main.json&style=flat-square" height="20"><br>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL9-STIG/benchmark-version-devel.json&style=flat-square" height="20"><br>
+      <a href="https://github.com/ansible-lockdown/RHEL9-STIG/releases/latest">
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL9-STIG/lockdown-release.json&style=flat-square" height="20">
+      </a>
+    </td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/Private-RHEL9-STIG/benchmark-version.json&style=flat-square" height="20"></td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/audit/RHEL9-STIG-Audit-Badge.json&style=flat-square" height="20"></td>
+  </tr>
+</table>
 
 </details>
 
 <details>
 <summary><b>RHEL 8</b></summary>
 
-| Baseline | Private Repo | Audit |
-|----------|--------------|-------|
-| [RHEL8-CIS](link) | [Private-RHEL8-CIS](link) | [RHEL8-CIS-Audit](link) |
-| [RHEL8-STIG](link) | [Private-RHEL8-STIG](link) | [RHEL8-STIG-Audit](link) |
+<table>
+  <!-- **********************************  CIS LINKS  ********************************** -->
+  <tr>
+    <td><a href="https://github.com/ansible-lockdown/RHEL8-CIS">RHEL8-CIS</a></td>
+    <td><a href="https://github.com/ansible-lockdown/github_windows_IaC/tree/self_hosted/badges/Private-RHEL8-CIS">Private-RHEL8-CIS</a></td>
+    <td><a href="https://github.com/ansible-lockdown/RHEL8-CIS-Audit">RHEL8-CIS-Audit</a></td>
+  </tr>
+  <!-- **********************************  CIS BADGES  ********************************* -->
+  <tr>
+    <td>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL8-CIS/benchmark-version-main.json&style=flat-square" height="20"><br>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL8-CIS/benchmark-version-devel.json&style=flat-square" height="20"><br>
+      <a href="https://github.com/ansible-lockdown/RHEL8-CIS/releases/latest">
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL8-CIS/lockdown-release.json&style=flat-square" height="20">
+      </a>
+    </td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/Private-RHEL8-CIS/benchmark-version.json&style=flat-square" height="20"></td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/audit/RHEL8-CIS-Audit-Badge.json&style=flat-square" height="20"></td>
+  </tr>
 
-</details>
-
-<details>
-<summary><b>RHEL 7</b></summary>
-
-| Baseline | Private Repo | Audit |
-|----------|--------------|-------|
-| [RHEL7-CIS](link) | [Private-RHEL7-CIS](link) | [RHEL7-CIS-Audit](link) |
-| [RHEL7-STIG](link) | [Private-RHEL7-STIG](link) | [RHEL7-STIG-Audit](link) |
-
-</details>
-
-<details>
-<summary><b>RHEL 6</b></summary>
-
-| Baseline | Private Repo | Audit |
-|----------|--------------|-------|
-| [RHEL6-CIS](link) | [Private-RHEL6-CIS](link) | [RHEL6-CIS-Audit](link) |
-| [RHEL6-STIG](link) | [Private-RHEL6-STIG](link) | [RHEL6-STIG-Audit](link) |
-
-</details>
-
-<details>
-<summary><b>RHEL 5</b></summary>
-
-| Baseline | Private Repo | Audit |
-|----------|--------------|-------|
-| [RHEL5-CIS](link) | [Private-RHEL5-CIS](link) | [RHEL5-CIS-Audit](link) |
-| [RHEL5-STIG](link) | [Private-RHEL5-STIG](link) | [RHEL5-STIG-Audit](link) |
-
-</details>
-
-### Ubuntu Linux
-
-<details>
-<summary><b>Ubuntu 24</b></summary>
-
-| Baseline | Private Repo | Audit |
-|----------|--------------|-------|
-| [UBUNTU24-CIS](link) | [Private-UBUNTU24-CIS](link) | [UBUNTU24-CIS-Audit](link) |
-| [UBUNTU24-STIG](link) | [Private-UBUNTU24-STIG](link) | [UBUNTU24-STIG-Audit](link) |
-
-</details>
-
-<details>
-<summary><b>Ubuntu 22</b></summary>
-
-| Baseline | Private Repo | Audit |
-|----------|--------------|-------|
-| [UBUNTU22-CIS](link) | [Private-UBUNTU22-CIS](link) | [UBUNTU22-CIS-Audit](link) |
-| [UBUNTU22-STIG](link) | [Private-UBUNTU22-STIG](link) | [UBUNTU22-STIG-Audit](link) |
-
-</details>
+  <!-- **********************************  STIG LINKS  ********************************* -->
+  <tr>
+    <td><a href="https://github.com/ansible-lockdown/RHEL8-STIG">RHEL8-STIG</a></td>
+    <td><a href="https://github.com/ansible-lockdown/github_windows_IaC/tree/self_hosted/badges/Private-RHEL8-STIG">Private-RHEL8-STIG</a></td>
+    <td><a href="https://github.com/ansible-lockdown/RHEL8-STIG-Audit">RHEL8-STIG-Audit</a></td>
+  </tr>
+  <!-- **********************************  STIG BADGES  ******************************** -->
+  <tr>
+    <td>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL8-STIG/benchmark-version-main.json&style=flat-square" height="20"><br>
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL8-STIG/benchmark-version-devel.json&style=flat-square" height="20"><br>
+      <a href="https://github.com/ansible-lockdown/RHEL8-STIG/releases/latest">
+      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/RHEL8-STIG/lockdown-release.json&style=flat-square" height="20">
+      </a>
+    </td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/self_hosted/badges/Private-RHEL8-STIG/benchmark-version.json&style=flat-square" height="20"></td>
+    <td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ansible-lockdown/github_windows_IaC/refs/heads/
