@@ -85,7 +85,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |DEBIAN13|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
-|RHEL10|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
+|RHEL10|[RHEL10-CIS]|[RHEL10-CIS-Audit]|
 |SUSE15|[SUSE15-CIS]|[SUSE15-CIS-Audit]|
 |UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
 |UBUNTU24|[UBUNTU24-CIS]|[UBUNTU24-CIS-Audit]|
