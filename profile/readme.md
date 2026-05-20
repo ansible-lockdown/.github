@@ -211,7 +211,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 Following entries used for consistent links across the document
 --->
 [Ansible]: https://www.ansible.com
-[Ansible Galaxy]: https://galaxy.ansible.com/MindPointGroup
+[Ansible Galaxy]: https://galaxy.ansible.com/ui/standalone/namespaces/4668/
 <!---
 [CIS - Centre for Internet Security]: https://www.cisecurity.org
 [DISA STIG]: https://public.cyber.mil/stigs
