@@ -12,7 +12,7 @@
 
 | Remediation Roles | Audit Profiles |
 | :----: | :----: |
-|[<img src="images/ansible.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
+|[<img src="https://github.com/ansible-lockdown/.github/raw/main/profile/images/ansible.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="https://github.com/ansible-lockdown/.github/raw/main/profile/images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
 |<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
 
 ## What is it?
@@ -49,13 +49,13 @@ Based upon industry recognized benchmarks and best practices, using leading prod
   - [Videos]
   - [Full Repository list]
   - [G2 reviews]
-  - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/AnsibleLockdown.svg?style=social&label=Follow%20%40AnsibleLockdown)](https://twitter.com/AnsibleLockdown)
+  - [![X URL](https://img.shields.io/twitter/url/https/twitter.com/AnsibleLockdown.svg?style=social&label=Follow%20%40AnsibleLockdown)](https://x.com/AnsibleLockdown)
 
 - MindPoint Group and other services:
 
   - [MindPoint Group]
-  - [![Linkedin Url](images/LinkedIn-Blue.png)](https://www.linkedin.com/company/mindpoint-group-llc/)
-  - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/MindPointGroup.svg?style=social&label=Follow%20%40MindPointGroup)](https://twitter.com/MindPointGroup)
+  - [![Linkedin Url](https://github.com/ansible-lockdown/.github/raw/main/profile/images/LinkedIn-Blue.png)](https://www.linkedin.com/company/mindpoint-group-llc/)
+  - [![X URL](https://img.shields.io/twitter/url/https/twitter.com/MindPointGroup.svg?style=social&label=Follow%20%40MindPointGroup)](https://x.com/MindPointGroup)
 
 ## Repositories
 
@@ -82,13 +82,15 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Amazon2023|[Amazon2023-CIS]|[Amazon2023-CIS-Audit]|
 |DEBIAN11|[DEBIAN11-CIS]|[DEBIAN11-CIS-Audit]|
 |DEBIAN12|[DEBIAN12-CIS]|[DEBIAN12-CIS-Audit]|
-|DEBIAN13|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
+|DEBIAN13|[DEBIAN13-CIS]|[DEBIAN13-CIS-Audit]|
 |RHEL8|[RHEL8-CIS]|[RHEL8-CIS-Audit]|
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
 |RHEL10|[RHEL10-CIS]|[RHEL10-CIS-Audit]|
 |SUSE15|[SUSE15-CIS]|[SUSE15-CIS-Audit]|
+|SUSE16|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
 |UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
 |UBUNTU24|[UBUNTU24-CIS]|[UBUNTU24-CIS-Audit]|
+|UBUNTU26|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
 
 #### CIS-Windows
 
@@ -154,11 +156,13 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
-|AMAZON2023|![Static Badge][Subscribers]|![Static Badge][Subscribers]|
+|AMAZON2023|![Static Badge][Subscribers]|[AMAZON2023-STIG-Audit]|
 |RHEL8|[RHEL8-STIG]|[RHEL8-STIG-Audit]|
 |RHEL9|[RHEL9-STIG]|[RHEL9-STIG-Audit]|
+|RHEL10|![Static Badge][Subscribers]|[RHEL10-STIG-Audit]|
 |UBUNTU22|[UBUNTU22-STIG]|[UBUNTU22-STIG-Audit]|
 |UBUNTU24|[UBUNTU24-STIG]|[UBUNTU24-STIG-Audit]|
+|UBUNTU26|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
 
 #### STIG-Windows
 
@@ -207,7 +211,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 Following entries used for consistent links across the document
 --->
 [Ansible]: https://www.ansible.com
-[Ansible Galaxy]: https://galaxy.ansible.com/MindPointGroup
+[Ansible Galaxy]: https://galaxy.ansible.com/ui/standalone/namespaces/4668/
 <!---
 [CIS - Centre for Internet Security]: https://www.cisecurity.org
 [DISA STIG]: https://public.cyber.mil/stigs
@@ -290,6 +294,7 @@ STIG Repo links
 [RHEL8-STIG-Audit]: https://github.com/ansible-lockdown/RHEL8-STIG-Audit
 [RHEL9-STIG]: https://github.com/ansible-lockdown/RHEL9-STIG
 [RHEL9-STIG-Audit]: https://github.com/ansible-lockdown/RHEL9-STIG-Audit
+[RHEL10-STIG-Audit]: https://github.com/ansible-lockdown/RHEL10-STIG-Audit
 [UBUNTU18-STIG]: https://github.com/ansible-lockdown/UBUNTU18-STIG
 [UBUNTU18-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU18-STIG-Audit
 [UBUNTU20-STIG]: https://github.com/ansible-lockdown/UBUNTU20-STIG
