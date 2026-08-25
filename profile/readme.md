@@ -87,10 +87,10 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
 |RHEL10|[RHEL10-CIS]|[RHEL10-CIS-Audit]|
 |SUSE15|[SUSE15-CIS]|[SUSE15-CIS-Audit]|
-|SUSE16|[SUSE16-CIS]|[SUSE16-CIS-Audit]|
+|SUSE16|[SUSE16-CIS] ![Static Badge][Subscribers]|[SUSE16-CIS-Audit]|
 |UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
 |UBUNTU24|[UBUNTU24-CIS]|[UBUNTU24-CIS-Audit]|
-|UBUNTU26|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
+|UBUNTU26|[UBUNTU26-CIS] ![Static Badge][Coming Soon]|[UBUNTU26-CIS-Audit]|
 
 #### CIS-Windows
 
@@ -162,7 +162,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |RHEL10|[RHEL10-STIG]|[RHEL10-STIG-Audit]|
 |UBUNTU22|[UBUNTU22-STIG]|[UBUNTU22-STIG-Audit]|
 |UBUNTU24|[UBUNTU24-STIG]|[UBUNTU24-STIG-Audit]|
-|UBUNTU26|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
+|UBUNTU26|[UBUNTU26-STIG] ![Static Badge][Coming Soon]|[UBUNTU26-STIG-Audit]|
 
 #### STIG-Windows
 
@@ -173,7 +173,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Windows-11|[Windows-11-STIG]|N/A|
 |Windows-2019|[Windows-2019-STIG]|N/A|
 |Windows-2022|[Windows-2022-STIG]|N/A|
-|Windows-2025|[Windows-2025-STIG]|N/A|
+|Windows-2025|[Windows-2025-STIG] ![Static Badge][Subscribers]|N/A|
 
 #### STIG-Applications
 
@@ -313,8 +313,12 @@ STIG Repo links
 [Cisco-IOS-L2S-STIG]: https://github.com/ansible-lockdown/CISCO-IOS-L2S-STIG
 [TOMCAT-9-STIG]: https://github.com/ansible-lockdown/TOMCAT-9-STIG
 [Cisco-IOS-RTR-STIG]: https://github.com/ansible-lockdown/CISCO-IOS-RTR-STIG
-[SUSE16-CIS]: https://github.com/ansible-lockdown/SUSE16-CIS
 [SUSE16-CIS-Audit]: https://github.com/ansible-lockdown/SUSE16-CIS-Audit
+[SUSE16-CIS]: https://github.com/ansible-lockdown/SUSE16-CIS
+[UBUNTU26-CIS]: https://github.com/ansible-lockdown/UBUNTU26-CIS
+[UBUNTU26-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU26-CIS-Audit
+[UBUNTU26-STIG]: https://github.com/ansible-lockdown/UBUNTU26-STIG
+[UBUNTU26-STIG-Audit]: https://github.com/ansible-lockdown/UBUNTU26-STIG-Audit
 [WinFWADV-STIG]: https://github.com/ansible-lockdown/WinFWADV-STIG
 [WinFWADV-STIG-Audit]: https://github.com/ansible-lockdown/WinFWADV-STIG-Audit
 
