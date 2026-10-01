@@ -87,7 +87,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |RHEL9|[RHEL9-CIS]|[RHEL9-CIS-Audit]|
 |RHEL10|[RHEL10-CIS]|[RHEL10-CIS-Audit]|
 |SUSE15|[SUSE15-CIS]|[SUSE15-CIS-Audit]|
-|SUSE16|![Static Badge][Subscribers]|[SUSE16-CIS-Audit]|
+|SUSE16|[SUSE16-CIS]|[SUSE16-CIS-Audit]|
 |UBUNTU22|[UBUNTU22-CIS]|[UBUNTU22-CIS-Audit]|
 |UBUNTU24|[UBUNTU24-CIS]|[UBUNTU24-CIS-Audit]|
 |UBUNTU26|![Static Badge][Coming Soon]|![Static Badge][Coming Soon]|
@@ -98,10 +98,10 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
-|Windows-11|[Windows-11-CIS]|![Static Badge][Coming Soon]|
+|Windows-11|[Windows-11-CIS]|[Windows-11-CIS-Audit]|
 |Windows-2019|[Windows-2019-CIS]|[Windows-2019-CIS-Audit]|
-|Windows-2022|[Windows-2022-CIS]|![Static Badge][Coming Soon]|
-|Windows-2025|[Windows-2025-CIS]|![Static Badge][Coming Soon]|
+|Windows-2022|[Windows-2022-CIS]|[Windows-2022-CIS-Audit]|
+|Windows-2025|[Windows-2025-CIS]|[Windows-2025-CIS-Audit]|
 
 #### CIS-Platform
 
@@ -266,12 +266,15 @@ CIS Repo links
 
 [Windows-10-CIS]: https://github.com/ansible-lockdown/Windows-10-CIS
 [Windows-11-CIS]: https://github.com/ansible-lockdown/Windows-11-CIS
+[Windows-11-CIS-Audit]: https://github.com/ansible-lockdown/Windows-11-CIS-Audit
 [Windows-2016-CIS]: https://github.com/ansible-lockdown/Windows-2016-CIS
 [Windows-2016-CIS-Audit]: https://github.com/ansible-lockdown/Windows-2016-CIS-Audit
 [Windows-2019-CIS]: https://github.com/ansible-lockdown/Windows-2019-CIS
 [Windows-2019-CIS-Audit]: https://github.com/ansible-lockdown/Windows-2019-CIS-Audit
 [Windows-2022-CIS]: https://github.com/ansible-lockdown/Windows-2022-CIS
+[Windows-2022-CIS-Audit]: https://github.com/ansible-lockdown/Windows-2022-CIS-Audit
 [Windows-2025-CIS]: https://github.com/ansible-lockdown/Windows-2025-CIS
+[Windows-2025-CIS-Audit]: https://github.com/ansible-lockdown/Windows-2025-CIS-Audit
 
 [Cisco-IOS-L2S]: https://github.com/ansible-lockdown/CISCO-IOS-L2S-STIG
 [AWS-Foundations]: https://github.com/ansible-lockdown/AWS-FOUNDATIONS-CIS
@@ -312,6 +315,7 @@ STIG Repo links
 [Cisco-IOS-L2S-STIG]: https://github.com/ansible-lockdown/CISCO-IOS-L2S-STIG
 [TOMCAT-9-STIG]: https://github.com/ansible-lockdown/TOMCAT-9-STIG
 [Cisco-IOS-RTR-STIG]: https://github.com/ansible-lockdown/CISCO-IOS-RTR-STIG
+[SUSE16-CIS]: https://github.com/ansible-lockdown/SUSE16-CIS
 [SUSE16-CIS-Audit]: https://github.com/ansible-lockdown/SUSE16-CIS-Audit
 [WinFWADV-STIG]: https://github.com/ansible-lockdown/WinFWADV-STIG
 [WinFWADV-STIG-Audit]: https://github.com/ansible-lockdown/WinFWADV-STIG-Audit
