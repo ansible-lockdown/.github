@@ -170,10 +170,10 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 
 |OS|Remediate|Audit|
 |--|--|--|
-|Windows-11|[Windows-11-STIG]|DISA SCC|
+|Windows-11|[Windows-11-STIG]|SCC|
 |Windows-2019|[Windows-2019-STIG]|N/A|
-|Windows-2022|[Windows-2022-STIG]|DISA SCC|
-|Windows-2025|[Windows-2025-STIG]|DISA SCC|
+|Windows-2022|[Windows-2022-STIG]|SCC|
+|Windows-2025|[Windows-2025-STIG]|SCC|
 
 #### STIG-Applications
 
