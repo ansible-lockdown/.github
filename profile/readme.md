@@ -173,7 +173,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
 |Windows-11|[Windows-11-STIG]|N/A|
 |Windows-2019|[Windows-2019-STIG]|N/A|
 |Windows-2022|[Windows-2022-STIG]|N/A|
-|Windows-2025|![Static Badge][Subscribers]|N/A|
+|Windows-2025|[Windows-2025-STIG]|N/A|
 
 #### STIG-Applications
 
@@ -255,6 +255,8 @@ CIS Repo links
 [RHEL10-CIS-Audit]: https://github.com/ansible-lockdown/RHEL10-CIS-Audit
 [SUSE15-CIS]: https://github.com/ansible-lockdown/SUSE15-CIS
 [SUSE15-CIS-Audit]: https://github.com/ansible-lockdown/SUSE15-CIS-Audit
+[SUSE16-CIS]: https://github.com/ansible-lockdown/SUSE16-CIS
+[SUSE16-CIS-Audit]: https://github.com/ansible-lockdown/SUSE16-CIS-Audit
 [UBUNTU18-CIS]: https://github.com/ansible-lockdown/UBUNTU18-CIS
 [UBUNTU18-CIS-Audit]: https://github.com/ansible-lockdown/UBUNTU18-CIS-Audit
 [UBUNTU20-CIS]: https://github.com/ansible-lockdown/UBUNTU20-CIS
@@ -309,14 +311,13 @@ STIG Repo links
 [Windows-2016-STIG]: https://github.com/ansible-lockdown/Windows-2016-STIG
 [Windows-2019-STIG]: https://github.com/ansible-lockdown/Windows-2019-STIG
 [Windows-2022-STIG]: https://github.com/ansible-lockdown/Windows-2022-STIG
+[Windows-2025-STIG]: https://github.com/ansible-lockdown/Windows-2025-STIG
 
 [Apache-2.4-STIG]: https://github.com/ansible-lockdown/APACHE-2.4-STIG
 [Postgres-9-STIG]: https://github.com/ansible-lockdown/POSTGRES-9-STIG
 [Cisco-IOS-L2S-STIG]: https://github.com/ansible-lockdown/CISCO-IOS-L2S-STIG
 [TOMCAT-9-STIG]: https://github.com/ansible-lockdown/TOMCAT-9-STIG
 [Cisco-IOS-RTR-STIG]: https://github.com/ansible-lockdown/CISCO-IOS-RTR-STIG
-[SUSE16-CIS]: https://github.com/ansible-lockdown/SUSE16-CIS
-[SUSE16-CIS-Audit]: https://github.com/ansible-lockdown/SUSE16-CIS-Audit
 [WinFWADV-STIG]: https://github.com/ansible-lockdown/WinFWADV-STIG
 [WinFWADV-STIG-Audit]: https://github.com/ansible-lockdown/WinFWADV-STIG-Audit
 
