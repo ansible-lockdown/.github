@@ -12,8 +12,8 @@
 
 | Remediation Roles | Audit Profiles |
 | :----: | :----: |
-|[<img src="https://github.com/ansible-lockdown/.github/raw/main/profile/images/ansible.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="https://github.com/ansible-lockdown/.github/raw/main/profile/images/github-mark.png" width="150" height="150" alt="Github hosted goss" />](https://goss.rocks)|
-|<h2>[Ansible]</h2>by RedHat <br>|<h2>[Goss]</h2>Go Server Spec<br>|
+|[<img src="https://github.com/ansible-lockdown/.github/raw/main/profile/images/ansible.png" width="150" height="77" alt="Ansible by RedHat" />](https://www.ansible.com)|[<img src="https://github.com/ansible-lockdown/.github/raw/main/profile/images/github-mark.png" width="150" height="150" alt="Syver on GitHub" />](https://github.com/krameff/syver)|
+|<h2>[Ansible]</h2>by RedHat <br>|<h2>[Syver]</h2>a fork of Goss<br>|
 
 ## What is it?
 
@@ -24,7 +24,7 @@ Based upon industry recognized benchmarks and best practices, using leading prod
   - Enterprise support available
 - Configuration-as-code
   - Assist in bringing your systems/platform into compliance through the use of [Ansible]
-  - Audit your current system/platform using [Goss]
+  - Audit your current system/platform using [Syver], a fork of [Goss]
 - Highly configurable to work with your systems
 
 ## Content
@@ -219,7 +219,8 @@ Following entries used for consistent links across the document
 [DISA STIG]: https://public.cyber.mil/stigs
 --->
 [G2 reviews]: https://www.g2.com/products/ansible-lockdown/reviews
-[GOSS]: https://goss.rocks
+[GOSS]: https://github.com/goss-org/goss
+[Syver]: https://github.com/krameff/syver
 [MindPoint Group]: https://mindpointgroup.com/cybersecurity-consulting/automate/baseline-modernization#GH_LockdownReadMe
 [Discord Community Discussions]: https://www.lockdownenterprise.com/discord
 [Enterprise Support]: https://lockdownenterprise.com
